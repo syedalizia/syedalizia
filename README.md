@@ -76,10 +76,23 @@ reflects the same standard of delivery.
   <img src="assets/header-certifications-light.svg" width="100%" alt="04 — Certifications">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/certifications-dark.svg">
-  <img src="assets/certifications-light.svg" width="100%" alt="Certified Scrum Master; Google Project Management Professional Certificate">
-</picture>
+<p>
+<a href="https://www.linkedin.com/learning/certificates/efc5eeb7820031f4e4a24e8fa9d0fe13ced589048ab4106ec3bb8ecc71db7430"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cert-scrum-master-dark.svg">
+  <img src="assets/cert-scrum-master-light.svg" width="49%" alt="Certified Scrum Master — verify on LinkedIn Learning">
+</picture></a>
+<a href="https://www.credly.com/badges/37985a2c-b457-45f7-bccc-f5fbec2dacf4/linked_in_profile"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cert-google-pm-dark.svg">
+  <img src="assets/cert-google-pm-light.svg" width="49%" alt="Google Project Management Professional Certificate — verify on Credly">
+</picture></a>
+</p>
+
+<div align="center">
+
+[![Google Project Management — Credly](https://img.shields.io/badge/Google%20PM%20Certificate-Verify%20on%20Credly-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/badges/37985a2c-b457-45f7-bccc-f5fbec2dacf4/linked_in_profile)
+[![Google Project Management — Coursera](https://img.shields.io/badge/Google%20PM%20Certificate-View%20on%20Coursera-0056D2?style=flat-square&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/specialization/PC8DRZYVPVVW)
+
+</div>
 
 <br/><br/>
 

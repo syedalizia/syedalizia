@@ -48,7 +48,7 @@ const wrap = (text, max) => {
   return lines;
 };
 
-const svg = (t, h, title, body, extraCss = "") => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${h}" width="${W}" height="${h}" role="img" aria-label="${esc(title)}">
+const svg = (t, h, title, body, extraCss = "", w = W) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="${esc(title)}">
   <title>${esc(title)}</title>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
@@ -179,18 +179,20 @@ const capabilities = grid("Core capabilities", [
 
 const y0 = 26;
 
-// ─── Certifications ──────────────────────────────────────────────────────────
-const certifications = (t) => {
-  const items = [
-    ["Certified Scrum Master", "Agile Leadership", "Team facilitation, iterative delivery, and continuous improvement."],
-    ["Google Project Management", "Professional Certificate", "Planning, stakeholder and risk management, and delivery governance."],
-  ];
-  const gap = 16, h = 150, cw = (W - gap) / 2;
-  const body = items.map(([name, sub, desc], i) => {
-    const x = i * (cw + gap);
-    const lines = wrap(desc, 46).map((l, n) =>
-      `<text x="${x + 96}" y="${y0 + 72 + n * 20}" font-size="13.5" fill="${t.muted}">${esc(l)}</text>`).join("\n    ");
-    return `
+// ─── Certifications: one SVG per card so each can be wrapped in a link ───────
+const CERTS = [
+  ["Certified Scrum Master", "Agile Leadership", "Team facilitation, iterative delivery, and continuous improvement.", true],
+  ["Google Project Management", "Professional Certificate", "Planning, stakeholder and risk management, and delivery governance.", true],
+];
+const certification = (i) => (t) => {
+  const [name, sub, desc, verifiable] = CERTS[i];
+  const h = 150, cw = (W - 16) / 2, x = 0;
+  const lines = wrap(desc, 46).map((l, n) =>
+    `<text x="${x + 96}" y="${y0 + 72 + n * 20}" font-size="13.5" fill="${t.muted}">${esc(l)}</text>`).join("\n    ");
+  const verify = verifiable
+    ? `<text class="mono fade-in" ${delay(1)} x="${cw - 18}" y="${h - 16}" font-size="11" font-weight="600" fill="url(#accent)" letter-spacing="1" text-anchor="end">VERIFY CREDENTIAL ↗</text>`
+    : "";
+  const body = `
   <g class="fade-up" ${delay(0.18 * i)}>
     ${card(t, x + 0.5, 0.5, cw - 1, h - 1, 1.5 + 0.5 * i)}
     <circle cx="${x + 54}" cy="62" r="34" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-dasharray="3 7" opacity="0.7">
@@ -202,9 +204,9 @@ const certifications = (t) => {
     <text x="${x + 96}" y="${y0 + 22}" font-size="17" font-weight="700" fill="${t.text}">${esc(name)}</text>
     <text class="mono" x="${x + 96}" y="${y0 + 44}" font-size="12" font-weight="600" fill="url(#accent)" letter-spacing="1">${esc(sub.toUpperCase())}</text>
     ${lines}
+    ${verify}
   </g>`;
-  }).join("");
-  return svg(t, h, "Certified Scrum Master; Google Project Management Professional Certificate", body);
+  return svg(t, h, `${name} — ${sub}`, body, "", cw);
 };
 
 // ─── Philosophy: four pillars converging into one outcome ────────────────────
@@ -426,7 +428,8 @@ const assets = {
   stats,
   toolbox,
   capabilities,
-  certifications,
+  "cert-scrum-master": certification(0),
+  "cert-google-pm": certification(1),
   philosophy,
   focus,
   interests,

@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="880" height="150" role="img" aria-label="Certified Scrum Master; Google Project Management Professional Certificate">
-  <title>Certified Scrum Master; Google Project Management Professional Certificate</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 150" width="432" height="150" role="img" aria-label="Certified Scrum Master — Agile Leadership">
+  <title>Certified Scrum Master — Agile Leadership</title>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
       <stop offset="0" stop-color="#2563EB"/>
@@ -54,24 +54,6 @@
     <text class="mono" x="96" y="70" font-size="12" font-weight="600" fill="url(#accent)" letter-spacing="1">AGILE LEADERSHIP</text>
     <text x="96" y="98" font-size="13.5" fill="#57606A">Team facilitation, iterative delivery, and</text>
     <text x="96" y="118" font-size="13.5" fill="#57606A">continuous improvement.</text>
-  </g>
-  <g class="fade-up" style="animation-delay:0.18s">
-    <rect x="448.5" y="0.5" width="431" height="149" rx="14" fill="#F8FAFC" stroke="#E2E8F0"/>
-    <clipPath id="clip21"><rect x="448.5" y="0.5" width="431" height="149" rx="14"/></clipPath>
-    <g clip-path="url(#clip21)"><g transform="translate(234 0.5) skewX(-24)">
-      <rect width="110" height="149" fill="url(#sheenGrad)">
-        <animateTransform attributeName="transform" type="translate" values="0 0;780 0;780 0" keyTimes="0;0.28;1" dur="7s" begin="2.00s" repeatCount="indefinite"/>
-      </rect>
-    </g></g>
-    <circle cx="502" cy="62" r="34" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-dasharray="3 7" opacity="0.7">
-      <animateTransform attributeName="transform" type="rotate" from="0 502 62" to="360 502 62" dur="14s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="502" cy="62" r="26" fill="none" stroke="url(#accent)" stroke-width="3"/>
-    <path d="M 490 62 l 8 8 l 15 -16" fill="none" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"
-          stroke-dasharray="40" stroke-dashoffset="40" style="animation: draw .7s 0.78s ease-out forwards"/>
-    <text x="544" y="48" font-size="17" font-weight="700" fill="#0F172A">Google Project Management</text>
-    <text class="mono" x="544" y="70" font-size="12" font-weight="600" fill="url(#accent)" letter-spacing="1">PROFESSIONAL CERTIFICATE</text>
-    <text x="544" y="98" font-size="13.5" fill="#57606A">Planning, stakeholder and risk management, and</text>
-    <text x="544" y="118" font-size="13.5" fill="#57606A">delivery governance.</text>
+    <text class="mono fade-in" style="animation-delay:1.00s" x="414" y="134" font-size="11" font-weight="600" fill="url(#accent)" letter-spacing="1" text-anchor="end">VERIFY CREDENTIAL ↗</text>
   </g>
 </svg>
