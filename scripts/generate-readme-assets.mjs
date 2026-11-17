@@ -1,7 +1,7 @@
 // Generates the animated SVG section headers and cards used in README.md.
 // Every asset is rendered in a light and a dark variant so it matches the
 // viewer's GitHub theme via <picture>. Run: node scripts/generate-readme-assets.mjs
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const OUT = "assets";
 const W = 880;
@@ -325,6 +325,93 @@ const interests = (t) => {
   return svg(t, h, "Interests: " + items.join(", "), body);
 };
 
+// ─── Technical toolbox ───────────────────────────────────────────────────────
+// Icons are vendored in assets/icons: skill-icons (MIT) for most technologies,
+// Simple Icons (CC0) glyphs on a matching tile for those skill-icons lacks.
+const TILE = "#242938";
+const brandIcon = (glyphFile, color) => async () => {
+  const d = (await readFile(`${OUT}/icons/${glyphFile}`, "utf8")).match(/ d="([^"]+)"/)[1];
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="${TILE}"/><g transform="translate(60 60) scale(5.667)"><path fill="${color}" d="${d}"/></g></svg>`;
+};
+const aiIcon = async () => {
+  const nodes = [[70, 84], [70, 128], [70, 172], [128, 106], [128, 150], [186, 128]];
+  const edges = [[0, 3], [0, 4], [1, 3], [1, 4], [2, 3], [2, 4], [3, 5], [4, 5]];
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#C084FC"/></linearGradient></defs><rect width="256" height="256" rx="60" fill="${TILE}"/>${edges.map(([a, b]) => `<line x1="${nodes[a][0]}" y1="${nodes[a][1]}" x2="${nodes[b][0]}" y2="${nodes[b][1]}" stroke="url(#g)" stroke-width="7" stroke-linecap="round" opacity=".75"/>`).join("")}${nodes.map(([x, y]) => `<circle cx="${x}" cy="${y}" r="16" fill="url(#g)"/>`).join("")}</svg>`;
+};
+const skillIcon = (id) => async () => {
+  const raw = await readFile(`${OUT}/icons/${id}.svg`, "utf8");
+  return raw.match(/<g transform="translate\(0, 0\)">\s*([\s\S]*?)\s*<\/g>\s*<\/svg>\s*$/)[1];
+};
+
+const TECH = {
+  php: ["PHP", skillIcon("php")], laravel: ["Laravel", skillIcon("laravel")], symfony: ["Symfony", skillIcon("symfony")],
+  codeigniter: ["CodeIgniter", brandIcon("si-codeigniter.svg", "#EF4223")],
+  nodejs: ["Node.js", skillIcon("nodejs")], express: ["Express", skillIcon("express")], py: ["Python", skillIcon("py")],
+  java: ["Java", skillIcon("java")], cs: ["C#", skillIcon("cs")],
+  js: ["JavaScript", skillIcon("js")], ts: ["TypeScript", skillIcon("ts")], react: ["React", skillIcon("react")],
+  vue: ["Vue.js", skillIcon("vue")], angular: ["Angular", skillIcon("angular")], html: ["HTML5", skillIcon("html")], css: ["CSS3", skillIcon("css")],
+  ai: ["AI / ML", aiIcon], llm: ["LLMs & RAG", brandIcon("si-openai.svg", "#FFFFFF")], n8n: ["n8n", brandIcon("si-n8n.svg", "#EA4B71")],
+  mysql: ["MySQL", skillIcon("mysql")], postgres: ["PostgreSQL", skillIcon("postgres")], mongodb: ["MongoDB", skillIcon("mongodb")],
+  firebase: ["Firebase", skillIcon("firebase")],
+  aws: ["AWS", skillIcon("aws")], azure: ["Azure", skillIcon("azure")], gcp: ["Google Cloud", skillIcon("gcp")],
+  docker: ["Docker", skillIcon("docker")], kubernetes: ["Kubernetes", skillIcon("kubernetes")],
+  jenkins: ["Jenkins", skillIcon("jenkins")], githubactions: ["GitHub Actions", skillIcon("githubactions")],
+};
+
+const CATEGORIES = [
+  ["Backend & APIs", ["php", "laravel", "symfony", "codeigniter", "nodejs", "express", "py", "java", "cs"]],
+  ["Frontend", ["js", "ts", "react", "vue", "angular", "html", "css"]],
+  ["AI, Data & Automation", ["ai", "llm", "n8n", "mysql", "postgres", "mongodb", "firebase"]],
+  ["Cloud & DevOps", ["aws", "azure", "gcp", "docker", "kubernetes", "jenkins", "githubactions"]],
+];
+
+const iconCache = {};
+let iconSeq = 0;
+const loadIcon = async (key) => (iconCache[key] ??= await TECH[key][1]());
+const namespaced = (markup) => {
+  const ns = `i${iconSeq++}-`;
+  return markup
+    .replace(/<svg([^>]*?)\s(width|height)="[^"]*"/g, "<svg$1")
+    .replace(/<svg([^>]*?)\s(width|height)="[^"]*"/g, "<svg$1")
+    .replace(/id="([^"]+)"/g, `id="${ns}$1"`)
+    .replace(/url\(#([^)]+)\)/g, `url(#${ns}$1)`)
+    .replace(/href="#([^"]+)"/g, `href="#${ns}$1"`);
+};
+
+const toolbox = async (t) => {
+  const rowH = 118, gap = 14, size = 48, step = 70, left = 236;
+  const h = CATEGORIES.length * rowH + (CATEGORIES.length - 1) * gap;
+  let n = 0;
+  const rows = [];
+  for (const [ci, [label, keys]] of CATEGORIES.entries()) {
+    const y = ci * (rowH + gap);
+    const icons = [];
+    for (const [k, key] of keys.entries()) {
+      const x = left + k * step;
+      const markup = namespaced(await loadIcon(key)).replace("<svg", `<svg x="${x}" y="${y + 20}" width="${size}" height="${size}"`);
+      const d = 0.25 + n++ * 0.05;
+      icons.push(`
+    <g class="pop" style="animation-delay:${d.toFixed(2)}s">
+      <g class="bob" style="animation-delay:${(k * 0.35).toFixed(2)}s">${markup}</g>
+      <text x="${x + size / 2}" y="${y + 92}" font-size="11" fill="${t.muted}" text-anchor="middle">${esc(TECH[key][0])}</text>
+    </g>`);
+    }
+    rows.push(`
+  <g class="fade-up" ${delay(0.12 * ci)}>
+    ${card(t, 0.5, y + 0.5, W - 1, rowH - 1, 2 + 0.6 * ci)}
+    <rect x="0.5" y="${y + 24}" width="4" height="${rowH - 48}" rx="2" fill="url(#accent)"/>
+    <text class="mono" x="26" y="${y + 50}" font-size="11" font-weight="600" fill="url(#accent)" letter-spacing="1.5">0${ci + 1} / ${String(keys.length).padStart(2, "0")} TOOLS</text>
+    <text x="26" y="${y + 74}" font-size="16" font-weight="700" fill="${t.text}">${esc(label)}</text>
+    ${icons.join("")}
+  </g>`);
+  }
+  return svg(t, h, "Technical toolbox: " + CATEGORIES.map(([l, k]) => `${l}: ${k.map((x) => TECH[x][0]).join(", ")}`).join("; "), rows.join(""),
+    `.pop { opacity: 0; transform-box: fill-box; transform-origin: center; animation: pop .55s cubic-bezier(.3,1.6,.5,1) forwards; }
+    @keyframes pop { from { opacity: 0; transform: scale(.4); } to { opacity: 1; transform: scale(1); } }
+    .bob { animation: bob 3.6s ease-in-out infinite; }
+    @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }`);
+};
+
 // ─── Build ───────────────────────────────────────────────────────────────────
 const assets = {
   "header-about": header(1, "About", "Architecture · Engineering · Leadership"),
@@ -337,6 +424,7 @@ const assets = {
   "header-beyond": header(8, "Beyond the Code", "What keeps me sharp"),
   "header-contact": header(9, "Let's Work Together", "Consulting · Architecture · Delivery"),
   stats,
+  toolbox,
   capabilities,
   certifications,
   philosophy,
@@ -346,5 +434,5 @@ const assets = {
 
 await mkdir(OUT, { recursive: true });
 await Promise.all(Object.entries(assets).flatMap(([name, render]) =>
-  Object.entries(themes).map(([mode, t]) => writeFile(`${OUT}/${name}-${mode}.svg`, render(t)))));
+  Object.entries(themes).map(async ([mode, t]) => writeFile(`${OUT}/${name}-${mode}.svg`, await render(t)))));
 console.log(`Generated ${Object.keys(assets).length * 2} SVG assets in ${OUT}/`);

@@ -60,25 +60,10 @@ reflects the same standard of delivery.
   <img src="assets/header-toolbox-light.svg" width="100%" alt="03 — Technical Toolbox">
 </picture>
 
-<div align="center">
-
-<sub><b>BACKEND &amp; APIs</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=php,laravel,symfony,nodejs,express,py,java,cs&theme=dark" alt="PHP, Laravel, Symfony, Node.js, Express, Python, Java, C#" /><br/>
-<img src="https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white" alt="CodeIgniter" />
-
-<sub><b>FRONTEND</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=js,ts,react,vue,angular,html,css&theme=dark" alt="JavaScript, TypeScript, React, Vue, Angular, HTML, CSS" />
-
-<sub><b>AI, DATA &amp; AUTOMATION</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase&theme=dark" alt="MySQL, PostgreSQL, MongoDB, Firebase" /><br/>
-<img src="https://img.shields.io/badge/AI%20%2F%20ML-8B5CF6?style=flat-square&logo=openai&logoColor=white" alt="AI/ML" />
-<img src="https://img.shields.io/badge/LLMs%20%26%20RAG-412991?style=flat-square&logo=openai&logoColor=white" alt="LLMs and RAG" />
-<img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
-
-<sub><b>CLOUD, DEVOPS &amp; ARCHITECTURE</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,jenkins,githubactions&theme=dark" alt="AWS, Azure, Google Cloud, Docker, Kubernetes, Jenkins, GitHub Actions" />
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-dark.svg">
+  <img src="assets/toolbox-light.svg" width="100%" alt="Backend: PHP, Laravel, Symfony, CodeIgniter, Node.js, Express, Python, Java, C#. Frontend: JavaScript, TypeScript, React, Vue.js, Angular, HTML5, CSS3. AI, Data & Automation: AI/ML, LLMs & RAG, n8n, MySQL, PostgreSQL, MongoDB, Firebase. Cloud & DevOps: AWS, Azure, Google Cloud, Docker, Kubernetes, Jenkins, GitHub Actions">
+</picture>
 
 <br/>
 
