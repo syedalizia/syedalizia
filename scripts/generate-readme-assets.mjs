@@ -184,9 +184,9 @@ const CERTS = [
   ["Certified Scrum Master", "Agile Leadership", "Team facilitation, iterative delivery, and continuous improvement.", true],
   ["Google Project Management", "Professional Certificate", "Planning, stakeholder and risk management, and delivery governance.", true],
 ];
-const certification = (i) => (t) => {
+const certification = (i, cw = (W - 16) / 2) => (t) => {
   const [name, sub, desc, verifiable] = CERTS[i];
-  const h = 150, cw = (W - 16) / 2, x = 0;
+  const h = 150, x = 0;
   const lines = wrap(desc, 46).map((l, n) =>
     `<text x="${x + 96}" y="${y0 + 72 + n * 20}" font-size="13.5" fill="${t.muted}">${esc(l)}</text>`).join("\n    ");
   const verify = verifiable
@@ -428,8 +428,7 @@ const assets = {
   stats,
   toolbox,
   capabilities,
-  "cert-scrum-master": certification(0),
-  "cert-google-pm": certification(1),
+  "cert-google-pm": certification(1, W), // Scrum Master (index 0) hidden for now
   philosophy,
   focus,
   interests,

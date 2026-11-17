@@ -76,16 +76,10 @@ reflects the same standard of delivery.
   <img src="assets/header-certifications-light.svg" width="100%" alt="04 — Certifications">
 </picture>
 
-<p>
-<a href="https://www.linkedin.com/learning/certificates/efc5eeb7820031f4e4a24e8fa9d0fe13ced589048ab4106ec3bb8ecc71db7430"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cert-scrum-master-dark.svg">
-  <img src="assets/cert-scrum-master-light.svg" width="49%" alt="Certified Scrum Master — verify on LinkedIn Learning">
-</picture></a>
-<a href="https://www.credly.com/badges/37985a2c-b457-45f7-bccc-f5fbec2dacf4/linked_in_profile"><picture>
+<a href="https://www.coursera.org/account/accomplishments/specialization/PC8DRZYVPVVW"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cert-google-pm-dark.svg">
-  <img src="assets/cert-google-pm-light.svg" width="49%" alt="Google Project Management Professional Certificate — verify on Credly">
+  <img src="assets/cert-google-pm-light.svg" width="100%" alt="Google Project Management Professional Certificate — verify on Coursera">
 </picture></a>
-</p>
 
 <div align="center">
 

@@ -41,8 +41,8 @@
 
   <g class="fade-up" style="animation-delay:0.00s">
     <rect x="0.5" y="0.5" width="207" height="173" rx="14" fill="#F8FAFC" stroke="#E2E8F0"/>
-    <clipPath id="clip24"><rect x="0.5" y="0.5" width="207" height="173" rx="14"/></clipPath>
-    <g clip-path="url(#clip24)"><g transform="translate(-226 0.5) skewX(-24)">
+    <clipPath id="clip22"><rect x="0.5" y="0.5" width="207" height="173" rx="14"/></clipPath>
+    <g clip-path="url(#clip22)"><g transform="translate(-226 0.5) skewX(-24)">
       <rect width="110" height="173" fill="url(#sheenGrad)">
         <animateTransform attributeName="transform" type="translate" values="0 0;580 0;580 0" keyTimes="0;0.28;1" dur="7s" begin="2.20s" repeatCount="indefinite"/>
       </rect>
@@ -57,8 +57,8 @@
   </g>
   <g class="fade-up" style="animation-delay:0.15s">
     <rect x="224.5" y="0.5" width="207" height="173" rx="14" fill="#F8FAFC" stroke="#E2E8F0"/>
-    <clipPath id="clip25"><rect x="224.5" y="0.5" width="207" height="173" rx="14"/></clipPath>
-    <g clip-path="url(#clip25)"><g transform="translate(-2 0.5) skewX(-24)">
+    <clipPath id="clip23"><rect x="224.5" y="0.5" width="207" height="173" rx="14"/></clipPath>
+    <g clip-path="url(#clip23)"><g transform="translate(-2 0.5) skewX(-24)">
       <rect width="110" height="173" fill="url(#sheenGrad)">
         <animateTransform attributeName="transform" type="translate" values="0 0;580 0;580 0" keyTimes="0;0.28;1" dur="7s" begin="2.60s" repeatCount="indefinite"/>
       </rect>
@@ -72,8 +72,8 @@
   </g>
   <g class="fade-up" style="animation-delay:0.30s">
     <rect x="448.5" y="0.5" width="207" height="173" rx="14" fill="#F8FAFC" stroke="#E2E8F0"/>
-    <clipPath id="clip26"><rect x="448.5" y="0.5" width="207" height="173" rx="14"/></clipPath>
-    <g clip-path="url(#clip26)"><g transform="translate(222 0.5) skewX(-24)">
+    <clipPath id="clip24"><rect x="448.5" y="0.5" width="207" height="173" rx="14"/></clipPath>
+    <g clip-path="url(#clip24)"><g transform="translate(222 0.5) skewX(-24)">
       <rect width="110" height="173" fill="url(#sheenGrad)">
         <animateTransform attributeName="transform" type="translate" values="0 0;580 0;580 0" keyTimes="0;0.28;1" dur="7s" begin="3.00s" repeatCount="indefinite"/>
       </rect>
@@ -88,8 +88,8 @@
   </g>
   <g class="fade-up" style="animation-delay:0.45s">
     <rect x="672.5" y="0.5" width="207" height="173" rx="14" fill="#F8FAFC" stroke="#E2E8F0"/>
-    <clipPath id="clip27"><rect x="672.5" y="0.5" width="207" height="173" rx="14"/></clipPath>
-    <g clip-path="url(#clip27)"><g transform="translate(446 0.5) skewX(-24)">
+    <clipPath id="clip25"><rect x="672.5" y="0.5" width="207" height="173" rx="14"/></clipPath>
+    <g clip-path="url(#clip25)"><g transform="translate(446 0.5) skewX(-24)">
       <rect width="110" height="173" fill="url(#sheenGrad)">
         <animateTransform attributeName="transform" type="translate" values="0 0;580 0;580 0" keyTimes="0;0.28;1" dur="7s" begin="3.40s" repeatCount="indefinite"/>
       </rect>
