@@ -13,7 +13,7 @@
 [![Email](https://img.shields.io/badge/Email-ali.zia.1991%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20323%202344445-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/923232344445)
 [![Upwork](https://img.shields.io/badge/Upwork-Top%20Rated%20Plus-14A800?style=flat-square&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
-[![Profile Views](https://komarev.com/ghpvc/?username=alizia1991&style=flat-square&color=1D4ED8&label=Profile%20Views)](https://github.com/alizia1991)
+[![Profile Views](https://komarev.com/ghpvc/?username=syedalizia&style=flat-square&color=1D4ED8&label=Profile%20Views)](https://github.com/syedalizia)
 
 </div>
 
@@ -101,8 +101,8 @@ reflects the same standard of delivery.
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alizia1991/alizia1991/output/github-contribution-grid-snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/alizia1991/alizia1991/output/github-contribution-grid-snake.svg" width="100%" alt="Animated snake traversing Syed Ali Zia's 2025 GitHub contributions">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/syedalizia/syedalizia/output/github-contribution-grid-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/syedalizia/syedalizia/output/github-contribution-grid-snake.svg" width="100%" alt="Animated snake traversing Syed Ali Zia's 2025 GitHub contributions">
 </picture>
 
 <br/><br/>
