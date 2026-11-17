@@ -318,6 +318,10 @@ const interests = (t) => {
   <g class="fade-up" ${delay(0.1 * i)}>
     <g>
       <rect x="${x + 0.5}" y="10" width="${pw - 1}" height="44" rx="22" fill="${t.card}" stroke="${t.cardStroke}"/>
+      <!-- Glow ring inset so its outer edge matches the base border: it lights up without changing size. -->
+      <rect x="${x + 0.75}" y="10.25" width="${pw - 1.5}" height="43.5" rx="21.75" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="${(1 + 0.35 * i).toFixed(2)}s" repeatCount="indefinite"/>
+      </rect>
       <text x="${x + pw / 2}" y="37" font-size="13" font-weight="600" fill="${t.text}" text-anchor="middle">${esc(item)}</text>
     </g>
   </g>`;

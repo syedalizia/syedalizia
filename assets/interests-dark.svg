@@ -39,36 +39,60 @@
   <g class="fade-up" style="animation-delay:0.00s">
     <g>
       <rect x="0.5" y="10" width="135.66666666666666" height="44" rx="22" fill="#161B22" stroke="#30363D"/>
+      <!-- Glow ring inset so its outer edge matches the base border: it lights up without changing size. -->
+      <rect x="0.75" y="10.25" width="135.16666666666666" height="43.5" rx="21.75" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="1.00s" repeatCount="indefinite"/>
+      </rect>
       <text x="68.33333333333333" y="37" font-size="13" font-weight="600" fill="#F0F6FC" text-anchor="middle">Chess &amp; Strategy</text>
     </g>
   </g>
   <g class="fade-up" style="animation-delay:0.10s">
     <g>
       <rect x="149.16666666666666" y="10" width="135.66666666666666" height="44" rx="22" fill="#161B22" stroke="#30363D"/>
+      <!-- Glow ring inset so its outer edge matches the base border: it lights up without changing size. -->
+      <rect x="149.41666666666666" y="10.25" width="135.16666666666666" height="43.5" rx="21.75" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="1.35s" repeatCount="indefinite"/>
+      </rect>
       <text x="217" y="37" font-size="13" font-weight="600" fill="#F0F6FC" text-anchor="middle">Algorithms</text>
     </g>
   </g>
   <g class="fade-up" style="animation-delay:0.20s">
     <g>
       <rect x="297.8333333333333" y="10" width="135.66666666666666" height="44" rx="22" fill="#161B22" stroke="#30363D"/>
+      <!-- Glow ring inset so its outer edge matches the base border: it lights up without changing size. -->
+      <rect x="298.0833333333333" y="10.25" width="135.16666666666666" height="43.5" rx="21.75" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="1.70s" repeatCount="indefinite"/>
+      </rect>
       <text x="365.66666666666663" y="37" font-size="13" font-weight="600" fill="#F0F6FC" text-anchor="middle">Problem-Solving</text>
     </g>
   </g>
   <g class="fade-up" style="animation-delay:0.30s">
     <g>
       <rect x="446.5" y="10" width="135.66666666666666" height="44" rx="22" fill="#161B22" stroke="#30363D"/>
+      <!-- Glow ring inset so its outer edge matches the base border: it lights up without changing size. -->
+      <rect x="446.75" y="10.25" width="135.16666666666666" height="43.5" rx="21.75" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="2.05s" repeatCount="indefinite"/>
+      </rect>
       <text x="514.3333333333334" y="37" font-size="13" font-weight="600" fill="#F0F6FC" text-anchor="middle">Hiking</text>
     </g>
   </g>
   <g class="fade-up" style="animation-delay:0.40s">
     <g>
       <rect x="595.1666666666666" y="10" width="135.66666666666666" height="44" rx="22" fill="#161B22" stroke="#30363D"/>
+      <!-- Glow ring inset so its outer edge matches the base border: it lights up without changing size. -->
+      <rect x="595.4166666666666" y="10.25" width="135.16666666666666" height="43.5" rx="21.75" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="2.40s" repeatCount="indefinite"/>
+      </rect>
       <text x="663" y="37" font-size="13" font-weight="600" fill="#F0F6FC" text-anchor="middle">Cycling</text>
     </g>
   </g>
   <g class="fade-up" style="animation-delay:0.50s">
     <g>
       <rect x="743.8333333333333" y="10" width="135.66666666666666" height="44" rx="22" fill="#161B22" stroke="#30363D"/>
+      <!-- Glow ring inset so its outer edge matches the base border: it lights up without changing size. -->
+      <rect x="744.0833333333333" y="10.25" width="135.16666666666666" height="43.5" rx="21.75" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="2.75s" repeatCount="indefinite"/>
+      </rect>
       <text x="811.6666666666666" y="37" font-size="13" font-weight="600" fill="#F0F6FC" text-anchor="middle">Lifelong Learning</text>
     </g>
   </g>

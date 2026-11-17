@@ -131,8 +131,8 @@ reflects the same standard of delivery.
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/interests-dark.svg?v=2">
-  <img src="assets/interests-light.svg?v=2" width="100%" alt="Chess & Strategy, Algorithms, Problem-Solving, Hiking, Cycling, Lifelong Learning">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/interests-dark.svg?v=3">
+  <img src="assets/interests-light.svg?v=3" width="100%" alt="Chess & Strategy, Algorithms, Problem-Solving, Hiking, Cycling, Lifelong Learning">
 </picture>
 
 <p align="center"><i>Whether it is a chessboard, an algorithm, a mountain trail, or a complex system —<br/>I enjoy understanding the terrain and finding the smartest path forward.</i></p>
