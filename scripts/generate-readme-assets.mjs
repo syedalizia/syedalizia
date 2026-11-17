@@ -316,7 +316,7 @@ const interests = (t) => {
     const x = i * (pw + gap);
     return `
   <g class="fade-up" ${delay(0.1 * i)}>
-    <g class="float" style="animation-delay:${(0.5 * i).toFixed(1)}s">
+    <g>
       <rect x="${x + 0.5}" y="10" width="${pw - 1}" height="44" rx="22" fill="${t.card}" stroke="${t.cardStroke}"/>
       <rect x="${x + 0.5}" y="10" width="${pw - 1}" height="44" rx="22" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
         <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="${(1 + 0.35 * i).toFixed(2)}s" repeatCount="indefinite"/>

@@ -37,7 +37,7 @@
   </style>
 
   <g class="fade-up" style="animation-delay:0.00s">
-    <g class="float" style="animation-delay:0.0s">
+    <g>
       <rect x="0.5" y="10" width="135.66666666666666" height="44" rx="22" fill="#F8FAFC" stroke="#E2E8F0"/>
       <rect x="0.5" y="10" width="135.66666666666666" height="44" rx="22" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
         <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="1.00s" repeatCount="indefinite"/>
@@ -46,7 +46,7 @@
     </g>
   </g>
   <g class="fade-up" style="animation-delay:0.10s">
-    <g class="float" style="animation-delay:0.5s">
+    <g>
       <rect x="149.16666666666666" y="10" width="135.66666666666666" height="44" rx="22" fill="#F8FAFC" stroke="#E2E8F0"/>
       <rect x="149.16666666666666" y="10" width="135.66666666666666" height="44" rx="22" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
         <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="1.35s" repeatCount="indefinite"/>
@@ -55,7 +55,7 @@
     </g>
   </g>
   <g class="fade-up" style="animation-delay:0.20s">
-    <g class="float" style="animation-delay:1.0s">
+    <g>
       <rect x="297.8333333333333" y="10" width="135.66666666666666" height="44" rx="22" fill="#F8FAFC" stroke="#E2E8F0"/>
       <rect x="297.8333333333333" y="10" width="135.66666666666666" height="44" rx="22" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
         <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="1.70s" repeatCount="indefinite"/>
@@ -64,7 +64,7 @@
     </g>
   </g>
   <g class="fade-up" style="animation-delay:0.30s">
-    <g class="float" style="animation-delay:1.5s">
+    <g>
       <rect x="446.5" y="10" width="135.66666666666666" height="44" rx="22" fill="#F8FAFC" stroke="#E2E8F0"/>
       <rect x="446.5" y="10" width="135.66666666666666" height="44" rx="22" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
         <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="2.05s" repeatCount="indefinite"/>
@@ -73,7 +73,7 @@
     </g>
   </g>
   <g class="fade-up" style="animation-delay:0.40s">
-    <g class="float" style="animation-delay:2.0s">
+    <g>
       <rect x="595.1666666666666" y="10" width="135.66666666666666" height="44" rx="22" fill="#F8FAFC" stroke="#E2E8F0"/>
       <rect x="595.1666666666666" y="10" width="135.66666666666666" height="44" rx="22" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
         <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="2.40s" repeatCount="indefinite"/>
@@ -82,7 +82,7 @@
     </g>
   </g>
   <g class="fade-up" style="animation-delay:0.50s">
-    <g class="float" style="animation-delay:2.5s">
+    <g>
       <rect x="743.8333333333333" y="10" width="135.66666666666666" height="44" rx="22" fill="#F8FAFC" stroke="#E2E8F0"/>
       <rect x="743.8333333333333" y="10" width="135.66666666666666" height="44" rx="22" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
         <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="2.75s" repeatCount="indefinite"/>
