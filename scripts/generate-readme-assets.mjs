@@ -51,9 +51,15 @@ const wrap = (text, max) => {
 const svg = (t, h, title, body, extraCss = "") => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${h}" width="${W}" height="${h}" role="img" aria-label="${esc(title)}">
   <title>${esc(title)}</title>
   <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
       <stop offset="0" stop-color="${t.a1}"/>
       <stop offset="1" stop-color="${t.a2}"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1 0;0 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="sheenGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="${t.glow}" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="${t.glow}" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="${t.glow}" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#fff" stop-opacity="0"/>
@@ -84,8 +90,20 @@ ${body}
 
 const delay = (s) => `style="animation-delay:${s.toFixed(2)}s"`;
 
-const card = (t, x, y, w, h) =>
-  `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="14" fill="${t.card}" stroke="${t.cardStroke}"/>`;
+let clipId = 0;
+const card = (t, x, y, w, h, sheenAt = null) => {
+  const base = `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="14" fill="${t.card}" stroke="${t.cardStroke}"/>`;
+  if (sheenAt === null) return base;
+  const id = `clip${clipId++}`;
+  const travel = w + h + 200;
+  return `${base}
+    <clipPath id="${id}"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="14"/></clipPath>
+    <g clip-path="url(#${id})"><g transform="translate(${x - 140 - h / 2} ${y}) skewX(-24)">
+      <rect width="110" height="${h}" fill="url(#sheenGrad)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;${travel} 0;${travel} 0" keyTimes="0;0.28;1" dur="7s" begin="${sheenAt.toFixed(2)}s" repeatCount="indefinite"/>
+      </rect>
+    </g></g>`;
+};
 
 // ─── Section header ──────────────────────────────────────────────────────────
 const header = (index, title, subtitle) => (t) => {
@@ -116,7 +134,7 @@ const stats = (t) => {
     const x = i * (cw + gap);
     return `
   <g class="fade-up" ${delay(0.15 * i)}>
-    ${card(t, x + 0.5, 0.5, cw - 1, h - 1)}
+    ${card(t, x + 0.5, 0.5, cw - 1, h - 1, 1.6 + 0.35 * i)}
     <text x="${x + cw / 2}" y="60" font-size="32" font-weight="800" fill="url(#accent)" text-anchor="middle" letter-spacing="-1">${esc(value)}</text>
     <text x="${x + cw / 2}" y="88" font-size="13" fill="${t.muted}" text-anchor="middle">${esc(label)}</text>
     <rect x="${x + 28}" y="108" width="${cw - 56}" height="4" rx="2" fill="${t.track}"/>
@@ -139,7 +157,7 @@ const grid = (title, items, cols, cardH, wrapAt) => (t) => {
       `<text x="${x + 24}" y="${y + 92 + n * 20}" font-size="13.5" fill="${t.muted}">${esc(l)}</text>`).join("\n    ");
     return `
   <g class="fade-up" ${delay(0.12 * i)}>
-    ${card(t, x + 0.5, y + 0.5, cw - 1, cardH - 1)}
+    ${card(t, x + 0.5, y + 0.5, cw - 1, cardH - 1, 1.4 + 0.3 * i)}
     <rect x="${x + 24}" y="${y + 24}" width="34" height="34" rx="9" fill="url(#accent)"/>
     <text class="mono" x="${x + 41}" y="${y + 46}" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">${String(i + 1).padStart(2, "0")}</text>
     <text x="${x + 72}" y="${y + 47}" font-size="16.5" font-weight="700" fill="${t.text}">${esc(name)}</text>
@@ -174,7 +192,10 @@ const certifications = (t) => {
       `<text x="${x + 96}" y="${y0 + 72 + n * 20}" font-size="13.5" fill="${t.muted}">${esc(l)}</text>`).join("\n    ");
     return `
   <g class="fade-up" ${delay(0.18 * i)}>
-    ${card(t, x + 0.5, 0.5, cw - 1, h - 1)}
+    ${card(t, x + 0.5, 0.5, cw - 1, h - 1, 1.5 + 0.5 * i)}
+    <circle cx="${x + 54}" cy="62" r="34" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-dasharray="3 7" opacity="0.7">
+      <animateTransform attributeName="transform" type="rotate" from="0 ${x + 54} 62" to="360 ${x + 54} 62" dur="14s" repeatCount="indefinite"/>
+    </circle>
     <circle cx="${x + 54}" cy="62" r="26" fill="none" stroke="url(#accent)" stroke-width="3"/>
     <path d="M ${x + 42} 62 l 8 8 l 15 -16" fill="none" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"
           stroke-dasharray="40" stroke-dashoffset="40" style="animation: draw .7s ${(0.6 + 0.18 * i).toFixed(2)}s ease-out forwards"/>
@@ -186,35 +207,73 @@ const certifications = (t) => {
   return svg(t, h, "Certified Scrum Master; Google Project Management Professional Certificate", body);
 };
 
-// ─── Philosophy equation ─────────────────────────────────────────────────────
+// ─── Philosophy: four pillars converging into one outcome ────────────────────
 const philosophy = (t) => {
-  const terms = ["Thoughtful UX", "Solid Engineering", "Scalable Architecture", "Practical AI"];
-  const h = 120, pillH = 44, y = 22, opW = 26, resW = 170;
-  const widths = terms.map((term) => Math.round(term.length * 6.9 + 30));
-  const total = widths.reduce((a, b) => a + b, 0) + opW * terms.length + resW;
-  let x = Math.max(0, (W - total) / 2);
-  const parts = [];
-  terms.forEach((term, i) => {
-    const pw = widths[i];
-    parts.push(`
-  <g class="fade-up" ${delay(0.25 * i)}>
-    <rect x="${x + 0.5}" y="${y}" width="${pw - 1}" height="${pillH}" rx="22" fill="${t.card}" stroke="${t.cardStroke}"/>
-    <text x="${x + pw / 2}" y="${y + 27}" font-size="13" font-weight="600" fill="${t.text}" text-anchor="middle">${esc(term)}</text>
-  </g>`);
-    x += pw;
-    const op = i < terms.length - 1 ? "+" : "=";
-    parts.push(`<text class="fade-in" ${delay(0.25 * i + 0.15)} x="${x + opW / 2}" y="${y + 29}" font-size="20" font-weight="700" fill="${t.muted}" text-anchor="middle">${op}</text>`);
-    x += opW;
-  });
-  parts.push(`
-  <g class="fade-up" ${delay(1.15)}>
-    <rect x="${x - 3}" y="${y - 3}" width="${resW + 6}" height="${pillH + 6}" rx="25" fill="none" stroke="${t.glow}" stroke-width="2" class="glow"/>
-    <rect x="${x}" y="${y}" width="${resW}" height="${pillH}" rx="22" fill="url(#accent)"/>
-    <text x="${x + resW / 2}" y="${y + 27}" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Products That Last</text>
+  const pillars = [
+    ["Thoughtful UX", "Interfaces people understand instantly and enjoy using.", "ux"],
+    ["Solid Engineering", "Clean, tested, maintainable code built to evolve.", "code"],
+    ["Scalable Architecture", "Systems designed for growth, resilience, and change.", "layers"],
+    ["Practical AI", "Intelligence applied where it creates measurable value.", "ai"],
+  ];
+  const gap = 16, cw = (W - gap * 3) / 4, ch = 174;
+  const node = { w: 340, h: 72, y: 268 };
+  node.x = (W - node.w) / 2;
+  const h = node.y + node.h + 56;
+
+  const icon = (kind, cx, cy) => ({
+    ux: `<path d="M ${cx - 5} ${cy - 8} L ${cx + 7} ${cy + 2} L ${cx + 1.5} ${cy + 3} L ${cx + 4.5} ${cy + 9} L ${cx + 1.5} ${cy + 10.5} L ${cx - 1.5} ${cy + 4.5} L ${cx - 5} ${cy + 8} Z" fill="#fff"/>`,
+    code: `<text class="mono" x="${cx}" y="${cy + 5}" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">&lt;/&gt;</text>`,
+    layers: [-7, -1, 5].map((dy, n) => `<rect x="${cx - 9}" y="${cy + dy - 1.5}" width="18" height="4" rx="2" fill="#fff" opacity="${1 - n * 0.2}"/>`).join(""),
+    ai: `<path d="M ${cx} ${cy - 10} Q ${cx + 1.5} ${cy - 1.5} ${cx + 10} ${cy} Q ${cx + 1.5} ${cy + 1.5} ${cx} ${cy + 10} Q ${cx - 1.5} ${cy + 1.5} ${cx - 10} ${cy} Q ${cx - 1.5} ${cy - 1.5} ${cx} ${cy - 10} Z" fill="#fff"/>`,
+  })[kind];
+
+  const cards = pillars.map(([name, desc, kind], i) => {
+    const x = i * (cw + gap);
+    const lines = wrap(desc, 27).map((l, n) =>
+      `<text x="${x + 20}" y="${110 + n * 19}" font-size="12.5" fill="${t.muted}">${esc(l)}</text>`).join("\n    ");
+    return `
+  <g class="fade-up" ${delay(0.15 * i)}>
+    ${card(t, x + 0.5, 0.5, cw - 1, ch - 1, 2.2 + 0.4 * i)}
+    <rect x="${x + 20}" y="20" width="40" height="40" rx="11" fill="url(#accent)"/>
+    ${icon(kind, x + 40, 40)}
+    <text class="mono" x="${x + cw - 20}" y="34" font-size="11" font-weight="600" fill="${t.muted}" text-anchor="end" letter-spacing="1">0${i + 1}</text>
+    <text x="${x + 20}" y="86" font-size="15.5" font-weight="700" fill="${t.text}">${esc(name)}</text>
+    ${lines}
+  </g>`;
+  }).join("");
+
+  const connectors = pillars.map((_, i) => {
+    const sx = i * (cw + gap) + cw / 2, sy = ch;
+    const ex = W / 2 + (i - 1.5) * 44, ey = node.y;
+    const d = `M ${sx} ${sy} C ${sx} ${sy + 52}, ${ex} ${ey - 52}, ${ex} ${ey}`;
+    const begin = 0.7 + 0.15 * i;
+    return `
+  <path d="${d}" fill="none" stroke="${t.cardStroke}" stroke-width="1.5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"
+        style="animation: draw .9s ${begin.toFixed(2)}s ease-out forwards"/>
+  <path d="${d}" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="4 8" class="flow fade-in" ${delay(begin + 0.8)}/>
+  <circle r="3.5" fill="${t.a2}" opacity="0">
+    <animateMotion path="${d}" dur="2.2s" begin="${(begin + 1 + 0.3 * i).toFixed(2)}s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".5 0 .5 1"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.2s" begin="${(begin + 1 + 0.3 * i).toFixed(2)}s" repeatCount="indefinite"/>
+  </circle>`;
+  }).join("");
+
+  const { x: nx, y: ny, w: nw, h: nh } = node;
+  const outcome = `
+  <g class="fade-up" ${delay(1.5)}>
+    <rect class="ring" x="${nx}" y="${ny}" width="${nw}" height="${nh}" rx="${nh / 2}" fill="none" stroke="${t.glow}" stroke-width="2"/>
+    <rect class="ring" style="animation-delay:1.4s" x="${nx}" y="${ny}" width="${nw}" height="${nh}" rx="${nh / 2}" fill="none" stroke="${t.glow}" stroke-width="2"/>
+    <rect x="${nx}" y="${ny}" width="${nw}" height="${nh}" rx="${nh / 2}" fill="url(#accent)"/>
+    <text x="${W / 2}" y="${ny + 33}" font-size="20" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="-0.3">Products That Last</text>
+    <text x="${W / 2}" y="${ny + 53}" font-size="12" fill="#fff" fill-opacity="0.85" text-anchor="middle">Built to scale, adapt, and deliver real business value</text>
   </g>
-  <text class="fade-in" ${delay(1.5)} x="${W / 2}" y="${h - 12}" font-size="13.5" fill="${t.muted}" text-anchor="middle">Simple where possible, designed for change, and measured by the business value it creates.</text>`);
-  return svg(t, h, "Thoughtful UX + Solid Engineering + Scalable Architecture + Practical AI = Products That Last", parts.join(""),
-    ".glow { animation: glow 2.6s 1.8s ease-in-out infinite; opacity: 0; } @keyframes glow { 0%,100% { opacity: 0; } 50% { opacity: .9; } }");
+  <text class="fade-in" ${delay(2)} x="${W / 2}" y="${h - 14}" font-size="13.5" fill="${t.muted}" text-anchor="middle">Simple where possible · designed for change · measured by the value it creates</text>`;
+
+  return svg(t, h, "Thoughtful UX, Solid Engineering, Scalable Architecture and Practical AI combine into Products That Last",
+    cards + connectors + outcome,
+    `.flow { animation: fadeIn .8s ease-out forwards, flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -24; } }
+    .ring { opacity: 0; transform-box: fill-box; transform-origin: center; animation: ring 2.8s 2s ease-out infinite; }
+    @keyframes ring { 0% { opacity: .7; transform: scale(1); } 100% { opacity: 0; transform: scale(1.12, 1.5); } }`);
 };
 
 // ─── Current focus (terminal) ────────────────────────────────────────────────
@@ -234,8 +293,14 @@ const focus = (t) => {
     <text class="mono" x="${W / 2}" y="25" font-size="12" fill="${t.muted}" text-anchor="middle">~/syed-ali-zia — current-focus</text>
   </g>
   <text class="mono fade-in" ${delay(0.3)} x="28" y="74" font-size="13.5" fill="${t.muted}"><tspan fill="${t.a1}">$</tspan> cat focus.md</text>
-  ${lines.map((l, i) => `<text class="mono slide" ${delay(0.7 + 0.35 * i)} x="28" y="${106 + i * 30}" font-size="13.5" fill="${t.text}"><tspan fill="${t.a2}">▸</tspan>  ${esc(l)}</text>`).join("\n  ")}
-  <text class="mono fade-in" ${delay(0.7 + 0.35 * lines.length)} x="28" y="${106 + lines.length * 30}" font-size="13.5" fill="${t.a1}">$ <tspan class="caret">▋</tspan></text>`;
+  ${lines.map((l, i) => {
+    const start = 0.8 + 1.1 * i, width = 60 + l.length * 8.2;
+    return `<clipPath id="type${i}"><rect x="20" y="${88 + i * 30}" height="26" width="0">
+      <animate attributeName="width" from="0" to="${width}" begin="${start.toFixed(2)}s" dur="0.95s" fill="freeze" calcMode="linear"/>
+    </rect></clipPath>
+  <text class="mono" clip-path="url(#type${i})" x="28" y="${106 + i * 30}" font-size="13.5" fill="${t.text}"><tspan fill="${t.a2}">▸</tspan>  ${esc(l)}</text>`;
+  }).join("\n  ")}
+  <text class="mono fade-in" ${delay(0.8 + 1.1 * lines.length)} x="28" y="${106 + lines.length * 30}" font-size="13.5" fill="${t.a1}">$ <tspan class="caret">▋</tspan></text>`;
   return svg(t, h, "Current focus: " + lines.join("; "), body,
     ".caret { animation: blink 1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0; } }");
 };
@@ -250,6 +315,9 @@ const interests = (t) => {
   <g class="fade-up" ${delay(0.1 * i)}>
     <g class="float" style="animation-delay:${(0.5 * i).toFixed(1)}s">
       <rect x="${x + 0.5}" y="10" width="${pw - 1}" height="44" rx="22" fill="${t.card}" stroke="${t.cardStroke}"/>
+      <rect x="${x + 0.5}" y="10" width="${pw - 1}" height="44" rx="22" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0">
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.08;0.2;1" dur="6s" begin="${(1 + 0.35 * i).toFixed(2)}s" repeatCount="indefinite"/>
+      </rect>
       <text x="${x + pw / 2}" y="37" font-size="13" font-weight="600" fill="${t.text}" text-anchor="middle">${esc(item)}</text>
     </g>
   </g>`;

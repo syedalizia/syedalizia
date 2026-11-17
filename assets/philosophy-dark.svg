@@ -1,9 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 120" width="880" height="120" role="img" aria-label="Thoughtful UX + Solid Engineering + Scalable Architecture + Practical AI = Products That Last">
-  <title>Thoughtful UX + Solid Engineering + Scalable Architecture + Practical AI = Products That Last</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 396" width="880" height="396" role="img" aria-label="Thoughtful UX, Solid Engineering, Scalable Architecture and Practical AI combine into Products That Last">
+  <title>Thoughtful UX, Solid Engineering, Scalable Architecture and Practical AI combine into Products That Last</title>
   <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
       <stop offset="0" stop-color="#60A5FA"/>
       <stop offset="1" stop-color="#A78BFA"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1 0;0 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="sheenGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#818CF8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#818CF8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#fff" stop-opacity="0"/>
@@ -26,30 +32,110 @@
     @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
     @keyframes draw { to { stroke-dashoffset: 0; } }
     @keyframes sweep { from { transform: translateX(-160px); } to { transform: translateX(1040px); } }
-    .glow { animation: glow 2.6s 1.8s ease-in-out infinite; opacity: 0; } @keyframes glow { 0%,100% { opacity: 0; } 50% { opacity: .9; } }
+    .flow { animation: fadeIn .8s ease-out forwards, flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -24; } }
+    .ring { opacity: 0; transform-box: fill-box; transform-origin: center; animation: ring 2.8s 2s ease-out infinite; }
+    @keyframes ring { 0% { opacity: .7; transform: scale(1); } 100% { opacity: 0; transform: scale(1.12, 1.5); } }
     
   </style>
 
   <g class="fade-up" style="animation-delay:0.00s">
-    <rect x="26" y="22" width="119" height="44" rx="22" fill="#161B22" stroke="#30363D"/>
-    <text x="85.5" y="49" font-size="13" font-weight="600" fill="#F0F6FC" text-anchor="middle">Thoughtful UX</text>
-  </g><text class="fade-in" style="animation-delay:0.15s" x="158.5" y="51" font-size="20" font-weight="700" fill="#8B949E" text-anchor="middle">+</text>
-  <g class="fade-up" style="animation-delay:0.25s">
-    <rect x="172" y="22" width="146" height="44" rx="22" fill="#161B22" stroke="#30363D"/>
-    <text x="245" y="49" font-size="13" font-weight="600" fill="#F0F6FC" text-anchor="middle">Solid Engineering</text>
-  </g><text class="fade-in" style="animation-delay:0.40s" x="331.5" y="51" font-size="20" font-weight="700" fill="#8B949E" text-anchor="middle">+</text>
-  <g class="fade-up" style="animation-delay:0.50s">
-    <rect x="345" y="22" width="174" height="44" rx="22" fill="#161B22" stroke="#30363D"/>
-    <text x="432" y="49" font-size="13" font-weight="600" fill="#F0F6FC" text-anchor="middle">Scalable Architecture</text>
-  </g><text class="fade-in" style="animation-delay:0.65s" x="532.5" y="51" font-size="20" font-weight="700" fill="#8B949E" text-anchor="middle">+</text>
-  <g class="fade-up" style="animation-delay:0.75s">
-    <rect x="546" y="22" width="112" height="44" rx="22" fill="#161B22" stroke="#30363D"/>
-    <text x="602" y="49" font-size="13" font-weight="600" fill="#F0F6FC" text-anchor="middle">Practical AI</text>
-  </g><text class="fade-in" style="animation-delay:0.90s" x="671.5" y="51" font-size="20" font-weight="700" fill="#8B949E" text-anchor="middle">=</text>
-  <g class="fade-up" style="animation-delay:1.15s">
-    <rect x="681.5" y="19" width="176" height="50" rx="25" fill="none" stroke="#818CF8" stroke-width="2" class="glow"/>
-    <rect x="684.5" y="22" width="170" height="44" rx="22" fill="url(#accent)"/>
-    <text x="769.5" y="49" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Products That Last</text>
+    <rect x="0.5" y="0.5" width="207" height="173" rx="14" fill="#161B22" stroke="#30363D"/>
+    <clipPath id="clip28"><rect x="0.5" y="0.5" width="207" height="173" rx="14"/></clipPath>
+    <g clip-path="url(#clip28)"><g transform="translate(-226 0.5) skewX(-24)">
+      <rect width="110" height="173" fill="url(#sheenGrad)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;580 0;580 0" keyTimes="0;0.28;1" dur="7s" begin="2.20s" repeatCount="indefinite"/>
+      </rect>
+    </g></g>
+    <rect x="20" y="20" width="40" height="40" rx="11" fill="url(#accent)"/>
+    <path d="M 35 32 L 47 42 L 41.5 43 L 44.5 49 L 41.5 50.5 L 38.5 44.5 L 35 48 Z" fill="#fff"/>
+    <text class="mono" x="188" y="34" font-size="11" font-weight="600" fill="#8B949E" text-anchor="end" letter-spacing="1">01</text>
+    <text x="20" y="86" font-size="15.5" font-weight="700" fill="#F0F6FC">Thoughtful UX</text>
+    <text x="20" y="110" font-size="12.5" fill="#8B949E">Interfaces people</text>
+    <text x="20" y="129" font-size="12.5" fill="#8B949E">understand instantly and</text>
+    <text x="20" y="148" font-size="12.5" fill="#8B949E">enjoy using.</text>
   </g>
-  <text class="fade-in" style="animation-delay:1.50s" x="440" y="108" font-size="13.5" fill="#8B949E" text-anchor="middle">Simple where possible, designed for change, and measured by the business value it creates.</text>
+  <g class="fade-up" style="animation-delay:0.15s">
+    <rect x="224.5" y="0.5" width="207" height="173" rx="14" fill="#161B22" stroke="#30363D"/>
+    <clipPath id="clip29"><rect x="224.5" y="0.5" width="207" height="173" rx="14"/></clipPath>
+    <g clip-path="url(#clip29)"><g transform="translate(-2 0.5) skewX(-24)">
+      <rect width="110" height="173" fill="url(#sheenGrad)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;580 0;580 0" keyTimes="0;0.28;1" dur="7s" begin="2.60s" repeatCount="indefinite"/>
+      </rect>
+    </g></g>
+    <rect x="244" y="20" width="40" height="40" rx="11" fill="url(#accent)"/>
+    <text class="mono" x="264" y="45" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">&lt;/&gt;</text>
+    <text class="mono" x="412" y="34" font-size="11" font-weight="600" fill="#8B949E" text-anchor="end" letter-spacing="1">02</text>
+    <text x="244" y="86" font-size="15.5" font-weight="700" fill="#F0F6FC">Solid Engineering</text>
+    <text x="244" y="110" font-size="12.5" fill="#8B949E">Clean, tested, maintainable</text>
+    <text x="244" y="129" font-size="12.5" fill="#8B949E">code built to evolve.</text>
+  </g>
+  <g class="fade-up" style="animation-delay:0.30s">
+    <rect x="448.5" y="0.5" width="207" height="173" rx="14" fill="#161B22" stroke="#30363D"/>
+    <clipPath id="clip30"><rect x="448.5" y="0.5" width="207" height="173" rx="14"/></clipPath>
+    <g clip-path="url(#clip30)"><g transform="translate(222 0.5) skewX(-24)">
+      <rect width="110" height="173" fill="url(#sheenGrad)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;580 0;580 0" keyTimes="0;0.28;1" dur="7s" begin="3.00s" repeatCount="indefinite"/>
+      </rect>
+    </g></g>
+    <rect x="468" y="20" width="40" height="40" rx="11" fill="url(#accent)"/>
+    <rect x="479" y="31.5" width="18" height="4" rx="2" fill="#fff" opacity="1"/><rect x="479" y="37.5" width="18" height="4" rx="2" fill="#fff" opacity="0.8"/><rect x="479" y="43.5" width="18" height="4" rx="2" fill="#fff" opacity="0.6"/>
+    <text class="mono" x="636" y="34" font-size="11" font-weight="600" fill="#8B949E" text-anchor="end" letter-spacing="1">03</text>
+    <text x="468" y="86" font-size="15.5" font-weight="700" fill="#F0F6FC">Scalable Architecture</text>
+    <text x="468" y="110" font-size="12.5" fill="#8B949E">Systems designed for</text>
+    <text x="468" y="129" font-size="12.5" fill="#8B949E">growth, resilience, and</text>
+    <text x="468" y="148" font-size="12.5" fill="#8B949E">change.</text>
+  </g>
+  <g class="fade-up" style="animation-delay:0.45s">
+    <rect x="672.5" y="0.5" width="207" height="173" rx="14" fill="#161B22" stroke="#30363D"/>
+    <clipPath id="clip31"><rect x="672.5" y="0.5" width="207" height="173" rx="14"/></clipPath>
+    <g clip-path="url(#clip31)"><g transform="translate(446 0.5) skewX(-24)">
+      <rect width="110" height="173" fill="url(#sheenGrad)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;580 0;580 0" keyTimes="0;0.28;1" dur="7s" begin="3.40s" repeatCount="indefinite"/>
+      </rect>
+    </g></g>
+    <rect x="692" y="20" width="40" height="40" rx="11" fill="url(#accent)"/>
+    <path d="M 712 30 Q 713.5 38.5 722 40 Q 713.5 41.5 712 50 Q 710.5 41.5 702 40 Q 710.5 38.5 712 30 Z" fill="#fff"/>
+    <text class="mono" x="860" y="34" font-size="11" font-weight="600" fill="#8B949E" text-anchor="end" letter-spacing="1">04</text>
+    <text x="692" y="86" font-size="15.5" font-weight="700" fill="#F0F6FC">Practical AI</text>
+    <text x="692" y="110" font-size="12.5" fill="#8B949E">Intelligence applied where</text>
+    <text x="692" y="129" font-size="12.5" fill="#8B949E">it creates measurable</text>
+    <text x="692" y="148" font-size="12.5" fill="#8B949E">value.</text>
+  </g>
+  <path d="M 104 174 C 104 226, 374 216, 374 268" fill="none" stroke="#30363D" stroke-width="1.5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"
+        style="animation: draw .9s 0.70s ease-out forwards"/>
+  <path d="M 104 174 C 104 226, 374 216, 374 268" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="4 8" class="flow fade-in" style="animation-delay:1.50s"/>
+  <circle r="3.5" fill="#A78BFA" opacity="0">
+    <animateMotion path="M 104 174 C 104 226, 374 216, 374 268" dur="2.2s" begin="1.70s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".5 0 .5 1"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.2s" begin="1.70s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M 328 174 C 328 226, 418 216, 418 268" fill="none" stroke="#30363D" stroke-width="1.5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"
+        style="animation: draw .9s 0.85s ease-out forwards"/>
+  <path d="M 328 174 C 328 226, 418 216, 418 268" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="4 8" class="flow fade-in" style="animation-delay:1.65s"/>
+  <circle r="3.5" fill="#A78BFA" opacity="0">
+    <animateMotion path="M 328 174 C 328 226, 418 216, 418 268" dur="2.2s" begin="2.15s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".5 0 .5 1"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.2s" begin="2.15s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M 552 174 C 552 226, 462 216, 462 268" fill="none" stroke="#30363D" stroke-width="1.5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"
+        style="animation: draw .9s 1.00s ease-out forwards"/>
+  <path d="M 552 174 C 552 226, 462 216, 462 268" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="4 8" class="flow fade-in" style="animation-delay:1.80s"/>
+  <circle r="3.5" fill="#A78BFA" opacity="0">
+    <animateMotion path="M 552 174 C 552 226, 462 216, 462 268" dur="2.2s" begin="2.60s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".5 0 .5 1"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.2s" begin="2.60s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M 776 174 C 776 226, 506 216, 506 268" fill="none" stroke="#30363D" stroke-width="1.5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"
+        style="animation: draw .9s 1.15s ease-out forwards"/>
+  <path d="M 776 174 C 776 226, 506 216, 506 268" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="4 8" class="flow fade-in" style="animation-delay:1.95s"/>
+  <circle r="3.5" fill="#A78BFA" opacity="0">
+    <animateMotion path="M 776 174 C 776 226, 506 216, 506 268" dur="2.2s" begin="3.05s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".5 0 .5 1"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.2s" begin="3.05s" repeatCount="indefinite"/>
+  </circle>
+  <g class="fade-up" style="animation-delay:1.50s">
+    <rect class="ring" x="270" y="268" width="340" height="72" rx="36" fill="none" stroke="#818CF8" stroke-width="2"/>
+    <rect class="ring" style="animation-delay:1.4s" x="270" y="268" width="340" height="72" rx="36" fill="none" stroke="#818CF8" stroke-width="2"/>
+    <rect x="270" y="268" width="340" height="72" rx="36" fill="url(#accent)"/>
+    <text x="440" y="301" font-size="20" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="-0.3">Products That Last</text>
+    <text x="440" y="321" font-size="12" fill="#fff" fill-opacity="0.85" text-anchor="middle">Built to scale, adapt, and deliver real business value</text>
+  </g>
+  <text class="fade-in" style="animation-delay:2.00s" x="440" y="382" font-size="13.5" fill="#8B949E" text-anchor="middle">Simple where possible · designed for change · measured by the value it creates</text>
 </svg>

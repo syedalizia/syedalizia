@@ -1,9 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 132" width="880" height="132" role="img" aria-label="13+ years of experience, $100K+ earned on Upwork, 100% Job Success Score, Top Rated Plus">
   <title>13+ years of experience, $100K+ earned on Upwork, 100% Job Success Score, Top Rated Plus</title>
   <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
       <stop offset="0" stop-color="#2563EB"/>
       <stop offset="1" stop-color="#7C3AED"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1 0;0 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="sheenGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#6366F1" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#fff" stop-opacity="0"/>
@@ -32,6 +38,12 @@
 
   <g class="fade-up" style="animation-delay:0.00s">
     <rect x="0.5" y="0.5" width="207" height="131" rx="14" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <clipPath id="clip0"><rect x="0.5" y="0.5" width="207" height="131" rx="14"/></clipPath>
+    <g clip-path="url(#clip0)"><g transform="translate(-205 0.5) skewX(-24)">
+      <rect width="110" height="131" fill="url(#sheenGrad)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;538 0;538 0" keyTimes="0;0.28;1" dur="7s" begin="1.60s" repeatCount="indefinite"/>
+      </rect>
+    </g></g>
     <text x="104" y="60" font-size="32" font-weight="800" fill="url(#accent)" text-anchor="middle" letter-spacing="-1">13+</text>
     <text x="104" y="88" font-size="13" fill="#57606A" text-anchor="middle">Years of experience</text>
     <rect x="28" y="108" width="152" height="4" rx="2" fill="#E2E8F0"/>
@@ -40,6 +52,12 @@
   </g>
   <g class="fade-up" style="animation-delay:0.15s">
     <rect x="224.5" y="0.5" width="207" height="131" rx="14" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <clipPath id="clip1"><rect x="224.5" y="0.5" width="207" height="131" rx="14"/></clipPath>
+    <g clip-path="url(#clip1)"><g transform="translate(19 0.5) skewX(-24)">
+      <rect width="110" height="131" fill="url(#sheenGrad)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;538 0;538 0" keyTimes="0;0.28;1" dur="7s" begin="1.95s" repeatCount="indefinite"/>
+      </rect>
+    </g></g>
     <text x="328" y="60" font-size="32" font-weight="800" fill="url(#accent)" text-anchor="middle" letter-spacing="-1">$100K+</text>
     <text x="328" y="88" font-size="13" fill="#57606A" text-anchor="middle">Earned on Upwork</text>
     <rect x="252" y="108" width="152" height="4" rx="2" fill="#E2E8F0"/>
@@ -48,6 +66,12 @@
   </g>
   <g class="fade-up" style="animation-delay:0.30s">
     <rect x="448.5" y="0.5" width="207" height="131" rx="14" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <clipPath id="clip2"><rect x="448.5" y="0.5" width="207" height="131" rx="14"/></clipPath>
+    <g clip-path="url(#clip2)"><g transform="translate(243 0.5) skewX(-24)">
+      <rect width="110" height="131" fill="url(#sheenGrad)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;538 0;538 0" keyTimes="0;0.28;1" dur="7s" begin="2.30s" repeatCount="indefinite"/>
+      </rect>
+    </g></g>
     <text x="552" y="60" font-size="32" font-weight="800" fill="url(#accent)" text-anchor="middle" letter-spacing="-1">100%</text>
     <text x="552" y="88" font-size="13" fill="#57606A" text-anchor="middle">Job Success Score</text>
     <rect x="476" y="108" width="152" height="4" rx="2" fill="#E2E8F0"/>
@@ -56,6 +80,12 @@
   </g>
   <g class="fade-up" style="animation-delay:0.45s">
     <rect x="672.5" y="0.5" width="207" height="131" rx="14" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <clipPath id="clip3"><rect x="672.5" y="0.5" width="207" height="131" rx="14"/></clipPath>
+    <g clip-path="url(#clip3)"><g transform="translate(467 0.5) skewX(-24)">
+      <rect width="110" height="131" fill="url(#sheenGrad)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;538 0;538 0" keyTimes="0;0.28;1" dur="7s" begin="2.65s" repeatCount="indefinite"/>
+      </rect>
+    </g></g>
     <text x="776" y="60" font-size="32" font-weight="800" fill="url(#accent)" text-anchor="middle" letter-spacing="-1">Top Rated+</text>
     <text x="776" y="88" font-size="13" fill="#57606A" text-anchor="middle">Upwork talent tier</text>
     <rect x="700" y="108" width="152" height="4" rx="2" fill="#E2E8F0"/>
