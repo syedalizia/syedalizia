@@ -11,6 +11,10 @@
 [![Focus](https://img.shields.io/badge/Focus-Applied%20AI%2FML-24292f?style=flat-square)](#-what-i-build)
 [![Email](https://img.shields.io/badge/Contact-ali.zia.1991%40gmail.com-24292f?style=flat-square&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
 
+[![Upwork Earnings](https://img.shields.io/badge/Upwork-%24100K%2B%20Earned-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
+[![Top Rated Plus](https://img.shields.io/badge/Top%20Rated%20Plus-Client%20Proven-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
+[![100% Job Success](https://img.shields.io/badge/Job%20Success-100%25-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
+
 </div>
 
 ---
@@ -24,19 +28,10 @@ I translate business requirements into secure, maintainable systems and provide
 technical direction across the full delivery lifecycle—from discovery and system
 design through implementation, deployment, and continuous improvement.
 
-## 🎓 Certifications
-
-<div align="center">
-
-![Scrum Master Certified](https://img.shields.io/badge/Scrum_Master-Certified-6b21a8?style=for-the-badge&logo=scrumalliance&logoColor=white)
-![Google Project Management](https://img.shields.io/badge/Google_Project_Management-Professional_Certificate-4285F4?style=for-the-badge&logo=google&logoColor=white)
-
-</div>
-
-My certifications complement my engineering background with structured **agile
-leadership, stakeholder collaboration, project planning, risk management, and
-delivery discipline**—helping me connect strong technology decisions to successful
-business outcomes.
+My independent consulting record reflects the same standard of delivery: **$100K+
+earned on Upwork, Top Rated Plus status, and a 100% Job Success Score**. These results
+represent consistent execution, trusted client relationships, and successful delivery
+across complex engagements.
 
 ## 🚀 What I build
 
@@ -46,6 +41,16 @@ business outcomes.
 - ⚡ **Workflow automation** — n8n automations, third-party integrations, and smarter business processes
 - ☁️ **Cloud & DevOps foundations** — containers, CI/CD, observability, and dependable deployments
 - 🤝 **Technical leadership** — architecture decisions, code quality, team mentoring, and delivery strategy
+
+## 🎓 Certifications
+
+| Certification | Professional application |
+|---|---|
+| **Scrum Master Certification** | Agile leadership, team facilitation, iterative delivery, and continuous improvement |
+| **Google Project Management Professional Certificate** | Project planning, stakeholder management, risk management, execution, and delivery governance |
+
+These credentials strengthen my ability to align architecture and engineering with
+delivery strategy, cross-functional collaboration, and measurable business outcomes.
 
 ## 🧰 The toolbox
 
