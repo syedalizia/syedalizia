@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 254" width="880" height="254" role="img" aria-label="Current focus: Building at the intersection of modern web engineering and applied AI/ML; Designing intelligent automations with n8n and AI agents; Advancing scalable, reliable, and user-centred delivery practices; Partnering with teams on ambitious products and complex challenges">
+  <title>Current focus: Building at the intersection of modern web engineering and applied AI/ML; Designing intelligent automations with n8n and AI agents; Advancing scalable, reliable, and user-centred delivery practices; Partnering with teams on ambitious products and complex challenges</title>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .fade-up { opacity: 0; animation: fadeUp .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    .fade-in { opacity: 0; animation: fadeIn .8s ease-out forwards; }
+    .slide { opacity: 0; animation: slide .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .float { animation: float 4s ease-in-out infinite; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeIn { to { opacity: 1; } }
+    @keyframes slide { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: translateX(0); } }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.7); } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes sweep { from { transform: translateX(-160px); } to { transform: translateX(1040px); } }
+    .caret { animation: blink 1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0; } }
+    
+  </style>
+
+  <g class="fade-in">
+    <rect x="0.5" y="0.5" width="879" height="253" rx="14" fill="#161B22" stroke="#30363D"/>
+    <path d="M 0.5 40 V 14.5 a 14 14 0 0 1 14 -14 H 865.5 a 14 14 0 0 1 14 14 V 40 Z" fill="#21262D"/>
+    <circle cx="24" cy="20" r="6" fill="#FF5F57"/><circle cx="44" cy="20" r="6" fill="#FEBC2E"/><circle cx="64" cy="20" r="6" fill="#28C840"/>
+    <text class="mono" x="440" y="25" font-size="12" fill="#8B949E" text-anchor="middle">~/syed-ali-zia — current-focus</text>
+  </g>
+  <text class="mono fade-in" style="animation-delay:0.30s" x="28" y="74" font-size="13.5" fill="#8B949E"><tspan fill="#60A5FA">$</tspan> cat focus.md</text>
+  <text class="mono slide" style="animation-delay:0.70s" x="28" y="106" font-size="13.5" fill="#F0F6FC"><tspan fill="#A78BFA">▸</tspan>  Building at the intersection of modern web engineering and applied AI/ML</text>
+  <text class="mono slide" style="animation-delay:1.05s" x="28" y="136" font-size="13.5" fill="#F0F6FC"><tspan fill="#A78BFA">▸</tspan>  Designing intelligent automations with n8n and AI agents</text>
+  <text class="mono slide" style="animation-delay:1.40s" x="28" y="166" font-size="13.5" fill="#F0F6FC"><tspan fill="#A78BFA">▸</tspan>  Advancing scalable, reliable, and user-centred delivery practices</text>
+  <text class="mono slide" style="animation-delay:1.75s" x="28" y="196" font-size="13.5" fill="#F0F6FC"><tspan fill="#A78BFA">▸</tspan>  Partnering with teams on ambitious products and complex challenges</text>
+  <text class="mono fade-in" style="animation-delay:2.10s" x="28" y="226" font-size="13.5" fill="#60A5FA">$ <tspan class="caret">▋</tspan></text>
+</svg>

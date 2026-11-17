@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 132" width="880" height="132" role="img" aria-label="13+ years of experience, $100K+ earned on Upwork, 100% Job Success Score, Top Rated Plus">
+  <title>13+ years of experience, $100K+ earned on Upwork, 100% Job Success Score, Top Rated Plus</title>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .fade-up { opacity: 0; animation: fadeUp .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    .fade-in { opacity: 0; animation: fadeIn .8s ease-out forwards; }
+    .slide { opacity: 0; animation: slide .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .float { animation: float 4s ease-in-out infinite; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeIn { to { opacity: 1; } }
+    @keyframes slide { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: translateX(0); } }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.7); } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes sweep { from { transform: translateX(-160px); } to { transform: translateX(1040px); } }
+    @keyframes grow { to { transform: scaleX(1); } }
+    
+  </style>
+
+  <g class="fade-up" style="animation-delay:0.00s">
+    <rect x="0.5" y="0.5" width="207" height="131" rx="14" fill="#161B22" stroke="#30363D"/>
+    <text x="104" y="60" font-size="32" font-weight="800" fill="url(#accent)" text-anchor="middle" letter-spacing="-1">13+</text>
+    <text x="104" y="88" font-size="13" fill="#8B949E" text-anchor="middle">Years of experience</text>
+    <rect x="28" y="108" width="152" height="4" rx="2" fill="#21262D"/>
+    <rect x="28" y="108" width="152" height="4" rx="2" fill="url(#accent)"
+          style="transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.2s 0.40s cubic-bezier(.6,0,.2,1) forwards"/>
+  </g>
+  <g class="fade-up" style="animation-delay:0.15s">
+    <rect x="224.5" y="0.5" width="207" height="131" rx="14" fill="#161B22" stroke="#30363D"/>
+    <text x="328" y="60" font-size="32" font-weight="800" fill="url(#accent)" text-anchor="middle" letter-spacing="-1">$100K+</text>
+    <text x="328" y="88" font-size="13" fill="#8B949E" text-anchor="middle">Earned on Upwork</text>
+    <rect x="252" y="108" width="152" height="4" rx="2" fill="#21262D"/>
+    <rect x="252" y="108" width="152" height="4" rx="2" fill="url(#accent)"
+          style="transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.2s 0.55s cubic-bezier(.6,0,.2,1) forwards"/>
+  </g>
+  <g class="fade-up" style="animation-delay:0.30s">
+    <rect x="448.5" y="0.5" width="207" height="131" rx="14" fill="#161B22" stroke="#30363D"/>
+    <text x="552" y="60" font-size="32" font-weight="800" fill="url(#accent)" text-anchor="middle" letter-spacing="-1">100%</text>
+    <text x="552" y="88" font-size="13" fill="#8B949E" text-anchor="middle">Job Success Score</text>
+    <rect x="476" y="108" width="152" height="4" rx="2" fill="#21262D"/>
+    <rect x="476" y="108" width="152" height="4" rx="2" fill="url(#accent)"
+          style="transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.2s 0.70s cubic-bezier(.6,0,.2,1) forwards"/>
+  </g>
+  <g class="fade-up" style="animation-delay:0.45s">
+    <rect x="672.5" y="0.5" width="207" height="131" rx="14" fill="#161B22" stroke="#30363D"/>
+    <text x="776" y="60" font-size="32" font-weight="800" fill="url(#accent)" text-anchor="middle" letter-spacing="-1">Top Rated+</text>
+    <text x="776" y="88" font-size="13" fill="#8B949E" text-anchor="middle">Upwork talent tier</text>
+    <rect x="700" y="108" width="152" height="4" rx="2" fill="#21262D"/>
+    <rect x="700" y="108" width="152" height="4" rx="2" fill="url(#accent)"
+          style="transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.2s 0.85s cubic-bezier(.6,0,.2,1) forwards"/>
+  </g>
+</svg>
