@@ -1,158 +1,182 @@
+<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
+
 <div align="center">
 
-# Syed Ali Zia
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:7C3AED&height=220&section=header&text=Syed%20Ali%20Zia&fontSize=58&fontColor=FFFFFF&fontAlignY=36&desc=Full-Stack%20Solution%20Architect%20%E2%80%A2%20Applied%20AI%2FML%20%E2%80%A2%20Engineering%20Leadership&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="Syed Ali Zia — Full-Stack Solution Architect" />
 
-### Full-Stack Solution Architect | Applied AI/ML | Engineering Leadership
+<a href="https://github.com/alizia1991">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3200&pause=900&color=3B82F6&center=true&vCenter=true&width=720&lines=Designing+scalable+software+platforms;Leading+products+from+architecture+to+production;Integrating+practical+AI+into+real+businesses;13%2B+years+of+shipping+reliable+systems" alt="Typing animation" />
+</a>
 
-**Designing scalable software platforms and leading them from architecture to production.**
+<br/>
 
-[![Experience](https://img.shields.io/badge/Experience-13%2B%20Years-1D4ED8?style=flat-square)](#-the-toolbox)
-[![Specialization](https://img.shields.io/badge/Specialization-Solution%20Architecture-7C3AED?style=flat-square)](#-what-i-build)
-[![Email](https://img.shields.io/badge/Contact-ali.zia.1991%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
+[![Upwork](https://img.shields.io/badge/Upwork-%24100K%2B%20Earned-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
+[![Top Rated Plus](https://img.shields.io/badge/Top%20Rated%20Plus-Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
+[![Job Success](https://img.shields.io/badge/Job%20Success-100%25-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
+
+[![Email](https://img.shields.io/badge/Email-ali.zia.1991%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20323%202344445-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/923232344445)
-
-[![Upwork Earnings](https://img.shields.io/badge/Upwork-%24100K%2B%20Earned-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
-[![Top Rated Plus](https://img.shields.io/badge/Top%20Rated%20Plus-Client%20Proven-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
-[![100% Job Success](https://img.shields.io/badge/Job%20Success-100%25-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
+[![Profile Views](https://komarev.com/ghpvc/?username=alizia1991&style=flat-square&color=1D4ED8&label=Profile%20Views)](https://github.com/alizia1991)
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
-Software architect and engineering leader with **13+ years of experience** designing,
-building, and modernizing web applications and digital platforms. My work spans
-solution architecture, backend and frontend engineering, cloud delivery, applied
-AI/ML, workflow automation, and technical leadership.
+## 👋 About
 
-I translate business requirements into secure, maintainable systems and provide
-technical direction across the full delivery lifecycle—from discovery and system
-design through implementation, deployment, and continuous improvement.
+I am a software architect and engineering leader with **13+ years of experience** designing,
+building, and modernizing web applications and digital platforms. My work spans solution
+architecture, full-stack engineering, cloud delivery, applied AI/ML, workflow automation,
+and technical leadership.
 
-My independent consulting record reflects the same standard of delivery: **$100K+
-earned on Upwork, Top Rated Plus status, and a 100% Job Success Score**. These results
-represent consistent execution, trusted client relationships, and successful delivery
-across complex engagements.
+I translate business objectives into secure, maintainable systems and provide technical
+direction across the entire delivery lifecycle — from discovery and system design through
+implementation, deployment, and continuous improvement.
 
-## 🚀 What I build
+<table>
+  <tr>
+    <td align="center" width="25%"><h3>13+</h3><sub>Years in software engineering</sub></td>
+    <td align="center" width="25%"><h3>$100K+</h3><sub>Earned as an independent consultant</sub></td>
+    <td align="center" width="25%"><h3>100%</h3><sub>Upwork Job Success Score</sub></td>
+    <td align="center" width="25%"><h3>Top Rated Plus</h3><sub>Upwork's highest talent tier</sub></td>
+  </tr>
+</table>
 
-- 🧠 **AI & ML solutions** — intelligent product features, LLM integrations, RAG workflows, data pipelines, and practical machine learning
-- 🏗️ **Solution architecture** — scalable systems, APIs, microservices, integrations, and cloud-native platforms
-- 🌐 **End-to-end web applications** — polished interfaces backed by reliable, secure services
-- ⚡ **Workflow automation** — n8n automations, third-party integrations, and smarter business processes
-- ☁️ **Cloud & DevOps foundations** — containers, CI/CD, observability, and dependable deployments
-- 🤝 **Technical leadership** — architecture decisions, code quality, team mentoring, and delivery strategy
+## 🎯 Core Capabilities
 
-## 🧰 The toolbox
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🧠 Applied AI &amp; Machine Learning</h4>
+      LLM integrations, retrieval-augmented generation (RAG), AI agents, data pipelines, and production-ready ML features.
+    </td>
+    <td width="50%" valign="top">
+      <h4>🏗️ Solution Architecture</h4>
+      Scalable distributed systems, API design, microservices, third-party integrations, and cloud-native platforms.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🌐 Full-Stack Engineering</h4>
+      Refined, responsive user interfaces backed by secure, high-performance backend services.
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ Workflow Automation</h4>
+      n8n and AI-driven automations that remove manual effort and streamline business operations.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>☁️ Cloud &amp; DevOps</h4>
+      Containerization, CI/CD pipelines, observability, and dependable, repeatable deployments.
+    </td>
+    <td width="50%" valign="top">
+      <h4>🤝 Technical Leadership</h4>
+      Architecture governance, code quality standards, team mentorship, and delivery strategy.
+    </td>
+  </tr>
+</table>
 
-### Backend & APIs
+## 🧰 Technical Toolbox
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Symfony](https://img.shields.io/badge/Symfony-6C757D?style=flat-square&logo=symfony&logoColor=white)
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-64748B?style=flat-square&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-
-### Frontend
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-### AI, Data & Automation
-
-![AI/ML](https://img.shields.io/badge/AI_%2F_ML-8B5CF6?style=flat-square&logo=openai&logoColor=white)
-![LLMs](https://img.shields.io/badge/LLMs-412991?style=flat-square&logo=openai&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=000)
-
-### Cloud, DevOps & Architecture
-
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+<table>
+  <tr>
+    <td width="26%"><b>Backend &amp; APIs</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=php,laravel,symfony,nodejs,express,py,java,cs&theme=dark" alt="Backend technologies" /><br/>
+      <img src="https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white" alt="CodeIgniter" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=js,ts,react,vue,angular,html,css&theme=dark" alt="Frontend technologies" /></td>
+  </tr>
+  <tr>
+    <td><b>AI, Data &amp; Automation</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase&theme=dark" alt="Data technologies" /><br/>
+      <img src="https://img.shields.io/badge/AI%20%2F%20ML-8B5CF6?style=flat-square&logo=openai&logoColor=white" alt="AI/ML" />
+      <img src="https://img.shields.io/badge/LLMs%20%26%20RAG-412991?style=flat-square&logo=openai&logoColor=white" alt="LLMs and RAG" />
+      <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Cloud, DevOps &amp; Architecture</b></td>
+    <td><img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,jenkins,githubactions&theme=dark" alt="Cloud and DevOps technologies" /></td>
+  </tr>
+</table>
 
 ## 🎓 Certifications
 
-| Certification | Professional application |
-|---|---|
-| **Scrum Master Certification** | Agile leadership, team facilitation, iterative delivery, and continuous improvement |
-| **Google Project Management Professional Certificate** | Project planning, stakeholder management, risk management, execution, and delivery governance |
+| Certification | Professional Application |
+|:--|:--|
+| 🏅 **Certified Scrum Master** | Agile leadership, team facilitation, iterative delivery, and continuous improvement |
+| 🏅 **Google Project Management Professional Certificate** | Project planning, stakeholder management, risk management, and delivery governance |
 
-These credentials strengthen my ability to align architecture and engineering with
-delivery strategy, cross-functional collaboration, and measurable business outcomes.
+These credentials complement my engineering background, enabling me to align architecture
+decisions with delivery strategy, cross-functional collaboration, and measurable business outcomes.
 
-## 🧩 How I think about products
+## 🧩 Engineering Philosophy
+
+<div align="center">
 
 ```text
-Great UX + Solid Engineering + Scalable Architecture + Useful AI = Products that last
+Thoughtful UX  +  Solid Engineering  +  Scalable Architecture  +  Practical AI  =  Products That Last
 ```
 
-I care about the decisions behind the code: choosing the right tools, keeping systems
-simple where possible, designing for change, and making sure technology creates real
+</div>
+
+I focus on the decisions behind the code: selecting the right tools, keeping systems as simple
+as possible, designing for change, and ensuring every technical investment delivers real
 business value.
 
-## ♕ Beyond the code
-
-Good engineering is a way of thinking—and I enjoy activities that keep that mindset
-sharp, curious, and resilient.
-
-| | Interest | What I enjoy about it |
-|:--:|---|---|
-| ♕ | **Chess & thinking games** | Strategy, pattern recognition, and planning several moves ahead |
-| 🧩 | **LeetCode & algorithms** | Breaking complex challenges into clear, efficient solutions |
-| 🌍 | **Real-world problem-solving** | Using technology to remove friction and create meaningful impact |
-| 🥾 | **Hiking** | Exploration, fresh perspective, and finding clarity away from the screen |
-| 🚴 | **Cycling** | Momentum, endurance, and enjoying the road one stretch at a time |
-| 📚 | **Continuous learning** | Staying curious across AI, architecture, leadership, and emerging technology |
-
-> Whether it is a chessboard, an algorithm, a mountain trail, or a complex system,
-> I enjoy understanding the terrain and finding the smartest path forward.
-
-## 🐍 My 2025 contributions, getting devoured
+## 📈 GitHub Activity
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alizia1991/alizia1991/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alizia1991/alizia1991/output/github-contribution-grid-snake.svg">
-  <img alt="Animated snake eating Syed Ali Zia's 2025 GitHub contributions" src="https://raw.githubusercontent.com/alizia1991/alizia1991/output/github-contribution-grid-snake.svg">
+  <img alt="Animated snake traversing Syed Ali Zia's 2025 GitHub contributions" src="https://raw.githubusercontent.com/alizia1991/alizia1991/output/github-contribution-grid-snake.svg">
 </picture>
 
 </div>
 
-## 🌱 Right now
+## 🌱 Current Focus
 
-- Building at the intersection of **web engineering and AI/ML**
-- Creating intelligent automations with **n8n and AI agents**
-- Sharpening my problem-solving through **chess, thinking games, and LeetCode**
-- Exploring better ways to ship reliable, scalable, human-friendly software
-- Always open to collaborating on an interesting product or difficult technical problem
+- Building at the intersection of **modern web engineering and applied AI/ML**
+- Designing intelligent automations with **n8n and AI agents**
+- Advancing scalable, reliable, and user-centred software delivery practices
+- Partnering with teams on ambitious products and complex technical challenges
 
----
+## ♟️ Beyond the Code
+
+<table>
+  <tr>
+    <td align="center" width="16%">♟️<br/><sub><b>Chess &amp; Strategy</b></sub></td>
+    <td align="center" width="16%">🧮<br/><sub><b>Algorithms</b></sub></td>
+    <td align="center" width="16%">🌍<br/><sub><b>Problem-Solving</b></sub></td>
+    <td align="center" width="16%">🥾<br/><sub><b>Hiking</b></sub></td>
+    <td align="center" width="16%">🚴<br/><sub><b>Cycling</b></sub></td>
+    <td align="center" width="16%">📚<br/><sub><b>Lifelong Learning</b></sub></td>
+  </tr>
+</table>
+
+> *Whether it is a chessboard, an algorithm, a mountain trail, or a complex system — I enjoy
+> understanding the terrain and finding the smartest path forward.*
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
 
 <div align="center">
 
-### Have a bold idea? Let's architect it, build it, and ship it. 🚀
+### 🤝 Let's Build Something Exceptional
 
-📬 **[ali.zia.1991@gmail.com](mailto:ali.zia.1991@gmail.com)**
+Open to consulting engagements, architecture reviews, and collaborations on ambitious products.
 
-💬 **[WhatsApp: +92 323 2344445](https://wa.me/923232344445)**
+[![Email Me](https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923232344445)
+[![Hire on Upwork](https://img.shields.io/badge/Hire%20on%20Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
 
-<sub>Built with curiosity, caffeine, and 13+ years of lessons from production. ☕</sub>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:1D4ED8,100:0F172A&height=120&section=footer&animation=twinkling" width="100%" alt="footer" />
 
 </div>
