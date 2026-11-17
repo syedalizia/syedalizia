@@ -10,6 +10,7 @@
 [![Specialization](https://img.shields.io/badge/Specialization-Solution%20Architecture-24292f?style=flat-square)](#-what-i-build)
 [![Focus](https://img.shields.io/badge/Focus-Applied%20AI%2FML-24292f?style=flat-square)](#-what-i-build)
 [![Email](https://img.shields.io/badge/Contact-ali.zia.1991%40gmail.com-24292f?style=flat-square&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20323%202344445-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/923232344445)
 
 [![Upwork Earnings](https://img.shields.io/badge/Upwork-%24100K%2B%20Earned-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
 [![Top Rated Plus](https://img.shields.io/badge/Top%20Rated%20Plus-Client%20Proven-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
@@ -150,6 +151,8 @@ sharp, curious, and resilient.
 ### Have a bold idea? Let's architect it, build it, and ship it. 🚀
 
 📬 **[ali.zia.1991@gmail.com](mailto:ali.zia.1991@gmail.com)**
+
+💬 **[WhatsApp: +92 323 2344445](https://wa.me/923232344445)**
 
 <sub>Built with curiosity, caffeine, and 13+ years of lessons from production. ☕</sub>
 
