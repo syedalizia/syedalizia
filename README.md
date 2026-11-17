@@ -8,7 +8,6 @@
 
 [![Experience](https://img.shields.io/badge/Experience-13%2B%20Years-1D4ED8?style=flat-square)](#-the-toolbox)
 [![Specialization](https://img.shields.io/badge/Specialization-Solution%20Architecture-7C3AED?style=flat-square)](#-what-i-build)
-[![Focus](https://img.shields.io/badge/Focus-Applied%20AI%2FML-0F766E?style=flat-square)](#-what-i-build)
 [![Email](https://img.shields.io/badge/Contact-ali.zia.1991%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20323%202344445-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/923232344445)
 
