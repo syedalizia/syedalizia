@@ -10,6 +10,7 @@
 
 <br/>
 
+[![Experience](https://img.shields.io/badge/Experience-13%2B%20Years-1D4ED8?style=for-the-badge)](#-about)
 [![Upwork](https://img.shields.io/badge/Upwork-%24100K%2B%20Earned-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
 [![Top Rated Plus](https://img.shields.io/badge/Top%20Rated%20Plus-Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
 [![Job Success](https://img.shields.io/badge/Job%20Success-100%25-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
@@ -20,7 +21,7 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
+---
 
 ## 👋 About
 
@@ -33,85 +34,47 @@ I translate business objectives into secure, maintainable systems and provide te
 direction across the entire delivery lifecycle — from discovery and system design through
 implementation, deployment, and continuous improvement.
 
-<table>
-  <tr>
-    <td align="center" width="25%"><h3>13+</h3><sub>Years in software engineering</sub></td>
-    <td align="center" width="25%"><h3>$100K+</h3><sub>Earned as an independent consultant</sub></td>
-    <td align="center" width="25%"><h3>100%</h3><sub>Upwork Job Success Score</sub></td>
-    <td align="center" width="25%"><h3>Top Rated Plus</h3><sub>Upwork's highest talent tier</sub></td>
-  </tr>
-</table>
+My independent consulting record reflects the same standard: **$100K+ earned on Upwork**,
+**Top Rated Plus** status, and a **100% Job Success Score**, built on consistent execution
+and long-term client relationships.
 
 ## 🎯 Core Capabilities
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🧠 Applied AI &amp; Machine Learning</h4>
-      LLM integrations, retrieval-augmented generation (RAG), AI agents, data pipelines, and production-ready ML features.
-    </td>
-    <td width="50%" valign="top">
-      <h4>🏗️ Solution Architecture</h4>
-      Scalable distributed systems, API design, microservices, third-party integrations, and cloud-native platforms.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🌐 Full-Stack Engineering</h4>
-      Refined, responsive user interfaces backed by secure, high-performance backend services.
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚡ Workflow Automation</h4>
-      n8n and AI-driven automations that remove manual effort and streamline business operations.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>☁️ Cloud &amp; DevOps</h4>
-      Containerization, CI/CD pipelines, observability, and dependable, repeatable deployments.
-    </td>
-    <td width="50%" valign="top">
-      <h4>🤝 Technical Leadership</h4>
-      Architecture governance, code quality standards, team mentorship, and delivery strategy.
-    </td>
-  </tr>
-</table>
+- 🧠 **Applied AI & Machine Learning** — LLM integrations, retrieval-augmented generation (RAG), AI agents, data pipelines, and production-ready ML features
+- 🏗️ **Solution Architecture** — scalable distributed systems, API design, microservices, integrations, and cloud-native platforms
+- 🌐 **Full-Stack Engineering** — refined, responsive interfaces backed by secure, high-performance services
+- ⚡ **Workflow Automation** — n8n and AI-driven automations that remove manual effort from business operations
+- ☁️ **Cloud & DevOps** — containerization, CI/CD pipelines, observability, and repeatable deployments
+- 🤝 **Technical Leadership** — architecture governance, code quality standards, mentorship, and delivery strategy
 
 ## 🧰 Technical Toolbox
 
-<table>
-  <tr>
-    <td width="26%"><b>Backend &amp; APIs</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=php,laravel,symfony,nodejs,express,py,java,cs&theme=dark" alt="Backend technologies" /><br/>
-      <img src="https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white" alt="CodeIgniter" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=js,ts,react,vue,angular,html,css&theme=dark" alt="Frontend technologies" /></td>
-  </tr>
-  <tr>
-    <td><b>AI, Data &amp; Automation</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase&theme=dark" alt="Data technologies" /><br/>
-      <img src="https://img.shields.io/badge/AI%20%2F%20ML-8B5CF6?style=flat-square&logo=openai&logoColor=white" alt="AI/ML" />
-      <img src="https://img.shields.io/badge/LLMs%20%26%20RAG-412991?style=flat-square&logo=openai&logoColor=white" alt="LLMs and RAG" />
-      <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Cloud, DevOps &amp; Architecture</b></td>
-    <td><img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,jenkins,githubactions&theme=dark" alt="Cloud and DevOps technologies" /></td>
-  </tr>
-</table>
+#### Backend & APIs
+
+<img src="https://skillicons.dev/icons?i=php,laravel,symfony,nodejs,express,py,java,cs&theme=dark" alt="PHP, Laravel, Symfony, Node.js, Express, Python, Java, C#" />
+
+<img src="https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white" alt="CodeIgniter" />
+
+#### Frontend
+
+<img src="https://skillicons.dev/icons?i=js,ts,react,vue,angular,html,css&theme=dark" alt="JavaScript, TypeScript, React, Vue, Angular, HTML, CSS" />
+
+#### AI, Data & Automation
+
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase&theme=dark" alt="MySQL, PostgreSQL, MongoDB, Firebase" />
+
+<img src="https://img.shields.io/badge/AI%20%2F%20ML-8B5CF6?style=for-the-badge&logo=openai&logoColor=white" alt="AI/ML" />
+<img src="https://img.shields.io/badge/LLMs%20%26%20RAG-412991?style=for-the-badge&logo=openai&logoColor=white" alt="LLMs and RAG" />
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
+
+#### Cloud, DevOps & Architecture
+
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,jenkins,githubactions&theme=dark" alt="AWS, Azure, Google Cloud, Docker, Kubernetes, Jenkins, GitHub Actions" />
 
 ## 🎓 Certifications
 
-| Certification | Professional Application |
-|:--|:--|
-| 🏅 **Certified Scrum Master** | Agile leadership, team facilitation, iterative delivery, and continuous improvement |
-| 🏅 **Google Project Management Professional Certificate** | Project planning, stakeholder management, risk management, and delivery governance |
+- 🏅 **Certified Scrum Master** — agile leadership, team facilitation, iterative delivery, and continuous improvement
+- 🏅 **Google Project Management Professional Certificate** — project planning, stakeholder management, risk management, and delivery governance
 
 These credentials complement my engineering background, enabling me to align architecture
 decisions with delivery strategy, cross-functional collaboration, and measurable business outcomes.
@@ -151,16 +114,11 @@ business value.
 
 ## ♟️ Beyond the Code
 
-<table>
-  <tr>
-    <td align="center" width="16%">♟️<br/><sub><b>Chess &amp; Strategy</b></sub></td>
-    <td align="center" width="16%">🧮<br/><sub><b>Algorithms</b></sub></td>
-    <td align="center" width="16%">🌍<br/><sub><b>Problem-Solving</b></sub></td>
-    <td align="center" width="16%">🥾<br/><sub><b>Hiking</b></sub></td>
-    <td align="center" width="16%">🚴<br/><sub><b>Cycling</b></sub></td>
-    <td align="center" width="16%">📚<br/><sub><b>Lifelong Learning</b></sub></td>
-  </tr>
-</table>
+<div align="center">
+
+♟️ **Chess & Strategy** &nbsp;·&nbsp; 🧮 **Algorithms** &nbsp;·&nbsp; 🌍 **Problem-Solving** &nbsp;·&nbsp; 🥾 **Hiking** &nbsp;·&nbsp; 🚴 **Cycling** &nbsp;·&nbsp; 📚 **Lifelong Learning**
+
+</div>
 
 > *Whether it is a chessboard, an algorithm, a mountain trail, or a complex system — I enjoy
 > understanding the terrain and finding the smartest path forward.*
