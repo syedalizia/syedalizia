@@ -24,15 +24,19 @@
   <img src="assets/header-about-light.svg" width="100%" alt="01 — About">
 </picture>
 
-I am a software architect and engineering leader with **13+ years of experience** designing,
+<p align="justify">
+I am a software architect and engineering leader with <b>13+ years of experience</b> designing,
 building, and modernizing web applications and digital platforms. My work spans solution
 architecture, full-stack engineering, cloud delivery, applied AI/ML, workflow automation,
 and technical leadership.
+</p>
 
+<p align="justify">
 I translate business objectives into secure, maintainable systems and provide technical
 direction across the entire delivery lifecycle — from discovery and system design through
 implementation, deployment, and continuous improvement. My independent consulting record
 reflects the same standard of delivery.
+</p>
 
 <a href="https://www.upwork.com/freelancers/~019c7cf9c3aba1337a">
 <picture>
