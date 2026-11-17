@@ -12,6 +12,7 @@ architecture, AI-powered products, and automated workflows—I build the whole t
 [![Email](https://img.shields.io/badge/Let's_Talk-ali.zia.1991%40gmail.com-ff4d8d?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
 [![Experience](https://img.shields.io/badge/Experience-13%2B_Years-7c3aed?style=for-the-badge)](#-the-toolbox)
 [![Focus](https://img.shields.io/badge/Focus-AI_%2B_Full_Stack-00b8a9?style=for-the-badge)](#-what-i-build)
+[![Mindset](https://img.shields.io/badge/Mindset-Always_Solving-f59e0b?style=for-the-badge)](#-beyond-the-code)
 
 </div>
 
@@ -26,12 +27,27 @@ experience: 13+ years
 currently_building: AI-powered web products and intelligent automations
 superpower: Taking a product from napkin sketch to scalable production system
 philosophy: Clean architecture. Useful AI. Software that solves real problems.
+off_screen: Chess, LeetCode, hiking, cycling, and the next interesting challenge
 ```
 
 I work across the entire product lifecycle: discovery, system design, development,
 deployment, optimization, and technical leadership. I enjoy untangling complex
 requirements and turning them into systems that are fast, maintainable, and ready
 to grow.
+
+## 🎓 Certifications
+
+<div align="center">
+
+![Scrum Master Certified](https://img.shields.io/badge/Scrum_Master-Certified-6b21a8?style=for-the-badge&logo=scrumalliance&logoColor=white)
+![Google Project Management](https://img.shields.io/badge/Google_Project_Management-Professional_Certificate-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+</div>
+
+My certifications complement my engineering background with structured **agile
+leadership, stakeholder collaboration, project planning, risk management, and
+delivery discipline**—helping me connect strong technology decisions to successful
+business outcomes.
 
 ## 🚀 What I build
 
@@ -96,6 +112,23 @@ I care about the decisions behind the code: choosing the right tools, keeping sy
 simple where possible, designing for change, and making sure technology creates real
 business value.
 
+## ♟️ Beyond the code
+
+Good engineering is a way of thinking—and I enjoy activities that keep that mindset
+sharp, curious, and resilient.
+
+| | Interest | What I enjoy about it |
+|:--:|---|---|
+| ♟️ | **Chess & thinking games** | Strategy, pattern recognition, and planning several moves ahead |
+| 🧩 | **LeetCode & algorithms** | Breaking complex challenges into clear, efficient solutions |
+| 🌍 | **Real-world problem-solving** | Using technology to remove friction and create meaningful impact |
+| 🥾 | **Hiking** | Exploration, fresh perspective, and finding clarity away from the screen |
+| 🚴 | **Cycling** | Momentum, endurance, and enjoying the road one stretch at a time |
+| 📚 | **Continuous learning** | Staying curious across AI, architecture, leadership, and emerging technology |
+
+> Whether it is a chessboard, an algorithm, a mountain trail, or a complex system,
+> I enjoy understanding the terrain and finding the smartest path forward.
+
 ## 🐍 My 2025 contributions, getting devoured
 
 <div align="center">
@@ -112,6 +145,7 @@ business value.
 
 - Building at the intersection of **web engineering and AI/ML**
 - Creating intelligent automations with **n8n and AI agents**
+- Sharpening my problem-solving through **chess, thinking games, and LeetCode**
 - Exploring better ways to ship reliable, scalable, human-friendly software
 - Always open to collaborating on an interesting product or difficult technical problem
 
