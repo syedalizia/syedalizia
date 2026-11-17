@@ -13,6 +13,7 @@
 [![Email](https://img.shields.io/badge/Email-ali.zia.1991%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20323%202344445-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/923232344445)
 [![Upwork](https://img.shields.io/badge/Upwork-Top%20Rated%20Plus-14A800?style=flat-square&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
+[![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ali--zia-F58025?style=flat-square&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/ali-zia)
 [![Profile Views](https://komarev.com/ghpvc/?username=syedalizia&style=flat-square&color=1D4ED8&label=Profile%20Views)](https://github.com/syedalizia)
 
 </div>
@@ -151,6 +152,7 @@ Open to consulting engagements, architecture reviews, and collaborations on ambi
 [![Email Me](https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923232344445)
 [![Hire on Upwork](https://img.shields.io/badge/Hire%20on%20Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
+[![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/ali-zia)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:1D4ED8,100:0F172A&height=120&section=footer&animation=twinkling" width="100%" alt="" />
 
