@@ -21,6 +21,7 @@ const query = `
           weeks {
             contributionDays {
               contributionCount
+              contributionLevel
               date
             }
           }
@@ -88,17 +89,12 @@ const positionForDate = (dateString) => {
 };
 
 const snakeIndex = (col, row) => col * ROWS + (col % 2 === 0 ? row : ROWS - 1 - row);
-const positiveCounts = days.map(({ contributionCount }) => contributionCount).filter(Boolean).sort((a, b) => a - b);
-const thresholds = [0.25, 0.5, 0.75].map((point) =>
-  positiveCounts[Math.floor((positiveCounts.length - 1) * point)] ?? 1,
-);
-
-const levelForCount = (count) => {
-  if (count === 0) return 0;
-  if (count <= thresholds[0]) return 1;
-  if (count <= thresholds[1]) return 2;
-  if (count <= thresholds[2]) return 3;
-  return 4;
+const contributionLevels = {
+  NONE: 0,
+  FIRST_QUARTILE: 1,
+  SECOND_QUARTILE: 2,
+  THIRD_QUARTILE: 3,
+  FOURTH_QUARTILE: 4,
 };
 
 const pathPoints = [];
@@ -137,14 +133,15 @@ const dayLabels = [[1, "Mon"], [3, "Wed"], [5, "Fri"]]
   .join("\n");
 
 const render = ({ background, border, empty, levels, text, muted, snake, eye }) => {
-  const cells = days.map(({ contributionCount, date }) => {
+  const cells = days.map(({ contributionCount, contributionLevel, date }) => {
     const { col, row } = positionForDate(date);
     const x = LEFT + col * STEP;
     const y = TOP + row * STEP;
     const index = snakeIndex(col, row);
     const eatenAt = Math.min(0.87, (index / (COLS * ROWS)) * 0.84);
     const resetAt = Math.min(0.995, eatenAt + 0.008);
-    const fill = contributionCount ? levels[levelForCount(contributionCount) - 1] : empty;
+    const level = contributionLevels[contributionLevel] ?? 0;
+    const fill = level ? levels[level - 1] : empty;
     const animation = contributionCount
       ? `<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;${eatenAt.toFixed(4)};${resetAt.toFixed(4)};0.94;1" dur="${DURATION}s" repeatCount="indefinite"/>`
       : "";
