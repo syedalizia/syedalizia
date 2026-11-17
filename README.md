@@ -2,44 +2,27 @@
 
 # Syed Ali Zia
 
-## I turn complex ideas into intelligent systems that scale.
+### Full-Stack Solution Architect | Applied AI/ML | Engineering Leadership
 
-**Full-Stack Solution Architect · AI/ML Engineer · Technical Leader**
+**Designing scalable software platforms and leading them from architecture to production.**
 
-For more than **13 years**, I have taken digital products from the first architecture
-diagram to production—building the backend, shaping the user experience, connecting
-the cloud, and leading the technical decisions that make everything work together.
-
-Today, I bring **AI/ML and intelligent automation** into that foundation to create
-products that do more than run reliably: they learn, adapt, automate, and deliver
-measurable business value.
-
-`STRATEGY` → `ARCHITECTURE` → `ENGINEERING` → `INTELLIGENCE` → `SCALE`
-
-[![Email](https://img.shields.io/badge/Let's_Talk-ali.zia.1991%40gmail.com-ff4d8d?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
-[![Experience](https://img.shields.io/badge/Experience-13%2B_Years-7c3aed?style=for-the-badge)](#-the-toolbox)
-[![Focus](https://img.shields.io/badge/Focus-AI_%2B_Full_Stack-00b8a9?style=for-the-badge)](#-what-i-build)
-[![Mindset](https://img.shields.io/badge/Mindset-Always_Solving-f59e0b?style=for-the-badge)](#-beyond-the-code)
+[![Experience](https://img.shields.io/badge/Experience-13%2B%20Years-24292f?style=flat-square)](#-the-toolbox)
+[![Specialization](https://img.shields.io/badge/Specialization-Solution%20Architecture-24292f?style=flat-square)](#-what-i-build)
+[![Focus](https://img.shields.io/badge/Focus-Applied%20AI%2FML-24292f?style=flat-square)](#-what-i-build)
+[![Email](https://img.shields.io/badge/Contact-ali.zia.1991%40gmail.com-24292f?style=flat-square&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
 
 </div>
 
 ---
 
-## 🧭 Professional profile
+Software architect and engineering leader with **13+ years of experience** designing,
+building, and modernizing web applications and digital platforms. My work spans
+solution architecture, backend and frontend engineering, cloud delivery, applied
+AI/ML, workflow automation, and technical leadership.
 
-```yaml
-role: Full-Stack Solution Architect
-experience: 13+ years
-specialization: Full-stack platforms, AI/ML solutions, and intelligent automation
-focus: Architecture, technical strategy, engineering leadership, and delivery
-approach: Transform complex requirements into scalable production systems
-principles: Clean architecture. Useful AI. Technology aligned with business value.
-```
-
-I work across the entire product lifecycle: discovery, system design, development,
-deployment, optimization, and technical leadership. I enjoy untangling complex
-requirements and turning them into systems that are fast, maintainable, and ready
-to grow.
+I translate business requirements into secure, maintainable systems and provide
+technical direction across the full delivery lifecycle—from discovery and system
+design through implementation, deployment, and continuous improvement.
 
 ## 🎓 Certifications
 
