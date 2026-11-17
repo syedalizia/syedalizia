@@ -43,16 +43,6 @@ across complex engagements.
 - ☁️ **Cloud & DevOps foundations** — containers, CI/CD, observability, and dependable deployments
 - 🤝 **Technical leadership** — architecture decisions, code quality, team mentoring, and delivery strategy
 
-## 🎓 Certifications
-
-| Certification | Professional application |
-|---|---|
-| **Scrum Master Certification** | Agile leadership, team facilitation, iterative delivery, and continuous improvement |
-| **Google Project Management Professional Certificate** | Project planning, stakeholder management, risk management, execution, and delivery governance |
-
-These credentials strengthen my ability to align architecture and engineering with
-delivery strategy, cross-functional collaboration, and measurable business outcomes.
-
 ## 🧰 The toolbox
 
 ### Backend & APIs
@@ -96,6 +86,16 @@ delivery strategy, cross-functional collaboration, and measurable business outco
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+## 🎓 Certifications
+
+| Certification | Professional application |
+|---|---|
+| **Scrum Master Certification** | Agile leadership, team facilitation, iterative delivery, and continuous improvement |
+| **Google Project Management Professional Certificate** | Project planning, stakeholder management, risk management, execution, and delivery governance |
+
+These credentials strengthen my ability to align architecture and engineering with
+delivery strategy, cross-functional collaboration, and measurable business outcomes.
 
 ## 🧩 How I think about products
 
