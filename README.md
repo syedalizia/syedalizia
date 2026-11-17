@@ -96,14 +96,14 @@ I care about the decisions behind the code: choosing the right tools, keeping sy
 simple where possible, designing for change, and making sure technology creates real
 business value.
 
-## 🐍 My contributions, getting devoured
+## 🐍 My 2025 contributions, getting devoured
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alizia1991/alizia1991/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alizia1991/alizia1991/output/github-contribution-grid-snake.svg">
-  <img alt="Snake animation eating Syed Ali Zia's GitHub contributions" src="https://raw.githubusercontent.com/alizia1991/alizia1991/output/github-contribution-grid-snake.svg">
+  <img alt="Animated snake eating Syed Ali Zia's 2025 GitHub contributions" src="https://raw.githubusercontent.com/alizia1991/alizia1991/output/github-contribution-grid-snake.svg">
 </picture>
 
 </div>
