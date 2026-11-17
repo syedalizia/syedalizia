@@ -2,16 +2,19 @@
 
 # Syed Ali Zia
 
-### Full-Stack Solution Architect · AI/ML Engineer · Technical Leader
+## I turn complex ideas into intelligent systems that scale.
 
-#### Architecting scalable platforms. Engineering intelligent products. Delivering measurable impact.
+**Full-Stack Solution Architect · AI/ML Engineer · Technical Leader**
 
-With **13+ years of engineering and architecture experience**, I design and deliver
-end-to-end digital products—from resilient backend systems and modern web experiences
-to cloud-native platforms, AI/ML capabilities, and intelligent automation.
+For more than **13 years**, I have taken digital products from the first architecture
+diagram to production—building the backend, shaping the user experience, connecting
+the cloud, and leading the technical decisions that make everything work together.
 
-I translate complex business challenges into secure, maintainable, production-ready
-solutions while aligning technology, teams, and delivery around outcomes that matter.
+Today, I bring **AI/ML and intelligent automation** into that foundation to create
+products that do more than run reliably: they learn, adapt, automate, and deliver
+measurable business value.
+
+`STRATEGY` → `ARCHITECTURE` → `ENGINEERING` → `INTELLIGENCE` → `SCALE`
 
 [![Email](https://img.shields.io/badge/Let's_Talk-ali.zia.1991%40gmail.com-ff4d8d?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
 [![Experience](https://img.shields.io/badge/Experience-13%2B_Years-7c3aed?style=for-the-badge)](#-the-toolbox)
