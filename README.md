@@ -6,10 +6,10 @@
 
 **Designing scalable software platforms and leading them from architecture to production.**
 
-[![Experience](https://img.shields.io/badge/Experience-13%2B%20Years-24292f?style=flat-square)](#-the-toolbox)
-[![Specialization](https://img.shields.io/badge/Specialization-Solution%20Architecture-24292f?style=flat-square)](#-what-i-build)
-[![Focus](https://img.shields.io/badge/Focus-Applied%20AI%2FML-24292f?style=flat-square)](#-what-i-build)
-[![Email](https://img.shields.io/badge/Contact-ali.zia.1991%40gmail.com-24292f?style=flat-square&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
+[![Experience](https://img.shields.io/badge/Experience-13%2B%20Years-1D4ED8?style=flat-square)](#-the-toolbox)
+[![Specialization](https://img.shields.io/badge/Specialization-Solution%20Architecture-7C3AED?style=flat-square)](#-what-i-build)
+[![Focus](https://img.shields.io/badge/Focus-Applied%20AI%2FML-0F766E?style=flat-square)](#-what-i-build)
+[![Email](https://img.shields.io/badge/Contact-ali.zia.1991%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20323%202344445-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/923232344445)
 
 [![Upwork Earnings](https://img.shields.io/badge/Upwork-%24100K%2B%20Earned-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019c7cf9c3aba1337a)
@@ -49,10 +49,10 @@ across complex engagements.
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Symfony](https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white)
+![Symfony](https://img.shields.io/badge/Symfony-6C757D?style=flat-square&logo=symfony&logoColor=white)
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Express](https://img.shields.io/badge/Express-64748B?style=flat-square&logo=express&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
@@ -61,7 +61,7 @@ across complex engagements.
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![React](https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -79,7 +79,7 @@ across complex engagements.
 
 ### Cloud, DevOps & Architecture
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -107,14 +107,14 @@ I care about the decisions behind the code: choosing the right tools, keeping sy
 simple where possible, designing for change, and making sure technology creates real
 business value.
 
-## ♟️ Beyond the code
+## ♕ Beyond the code
 
 Good engineering is a way of thinking—and I enjoy activities that keep that mindset
 sharp, curious, and resilient.
 
 | | Interest | What I enjoy about it |
 |:--:|---|---|
-| ♟️ | **Chess & thinking games** | Strategy, pattern recognition, and planning several moves ahead |
+| ♕ | **Chess & thinking games** | Strategy, pattern recognition, and planning several moves ahead |
 | 🧩 | **LeetCode & algorithms** | Breaking complex challenges into clear, efficient solutions |
 | 🌍 | **Real-world problem-solving** | Using technology to remove friction and create meaningful impact |
 | 🥾 | **Hiking** | Exploration, fresh perspective, and finding clarity away from the screen |
