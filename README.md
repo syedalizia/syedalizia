@@ -76,17 +76,16 @@ reflects the same standard of delivery.
   <img src="assets/header-certifications-light.svg" width="100%" alt="04 — Certifications">
 </picture>
 
-<a href="https://www.coursera.org/account/accomplishments/specialization/PC8DRZYVPVVW"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cert-google-pm-dark.svg">
-  <img src="assets/cert-google-pm-light.svg" width="100%" alt="Google Project Management Professional Certificate — verify on Coursera">
+<p>
+<a href="https://www.credly.com/badges/37985a2c-b457-45f7-bccc-f5fbec2dacf4/linked_in_profile"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cert-google-pm-certificate-dark.svg">
+  <img src="assets/cert-google-pm-certificate-light.svg" width="49%" alt="Google Project Management Certificate (Coursera, Apr 2024) — verify on Credly">
 </picture></a>
-
-<div align="center">
-
-[![Google Project Management — Credly](https://img.shields.io/badge/Google%20PM%20Certificate-Verify%20on%20Credly-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/badges/37985a2c-b457-45f7-bccc-f5fbec2dacf4/linked_in_profile)
-[![Google Project Management — Coursera](https://img.shields.io/badge/Google%20PM%20Certificate-View%20on%20Coursera-0056D2?style=flat-square&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/specialization/PC8DRZYVPVVW)
-
-</div>
+<a href="https://www.coursera.org/account/accomplishments/specialization/PC8DRZYVPVVW"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cert-google-pm-specialization-dark.svg">
+  <img src="assets/cert-google-pm-specialization-light.svg" width="49%" alt="Google Project Management: Specialization (Google, Apr 2024, Credential ID PC8DRZYVPVVW) — verify on Coursera">
+</picture></a>
+</p>
 
 <br/><br/>
 

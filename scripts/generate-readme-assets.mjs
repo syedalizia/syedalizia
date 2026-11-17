@@ -182,9 +182,10 @@ const y0 = 26;
 // ─── Certifications: one SVG per card so each can be wrapped in a link ───────
 const CERTS = [
   ["Certified Scrum Master", "Agile Leadership", "Team facilitation, iterative delivery, and continuous improvement.", true],
-  ["Google Project Management", "Professional Certificate", "Planning, stakeholder and risk management, and delivery governance.", true],
+  ["Google Project Management", "Certificate · Coursera · Apr 2024", "Planning, stakeholder and risk management, and Agile delivery.", true],
+  ["Google Project Management", "Specialization · Google · Apr 2024", "Credential ID PC8DRZYVPVVW · Agile Project Management.", true],
 ];
-const certification = (i, cw = (W - 16) / 2) => (t) => {
+const certification = (i, cw = (W - 16) / 2, order = i) => (t) => {
   const [name, sub, desc, verifiable] = CERTS[i];
   const h = 150, x = 0;
   const lines = wrap(desc, 46).map((l, n) =>
@@ -193,14 +194,14 @@ const certification = (i, cw = (W - 16) / 2) => (t) => {
     ? `<text class="mono fade-in" ${delay(1)} x="${cw - 18}" y="${h - 16}" font-size="11" font-weight="600" fill="url(#accent)" letter-spacing="1" text-anchor="end">VERIFY CREDENTIAL ↗</text>`
     : "";
   const body = `
-  <g class="fade-up" ${delay(0.18 * i)}>
-    ${card(t, x + 0.5, 0.5, cw - 1, h - 1, 1.5 + 0.5 * i)}
+  <g class="fade-up" ${delay(0.18 * order)}>
+    ${card(t, x + 0.5, 0.5, cw - 1, h - 1, 1.5 + 0.5 * order)}
     <circle cx="${x + 54}" cy="62" r="34" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-dasharray="3 7" opacity="0.7">
       <animateTransform attributeName="transform" type="rotate" from="0 ${x + 54} 62" to="360 ${x + 54} 62" dur="14s" repeatCount="indefinite"/>
     </circle>
     <circle cx="${x + 54}" cy="62" r="26" fill="none" stroke="url(#accent)" stroke-width="3"/>
     <path d="M ${x + 42} 62 l 8 8 l 15 -16" fill="none" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"
-          stroke-dasharray="40" stroke-dashoffset="40" style="animation: draw .7s ${(0.6 + 0.18 * i).toFixed(2)}s ease-out forwards"/>
+          stroke-dasharray="40" stroke-dashoffset="40" style="animation: draw .7s ${(0.6 + 0.18 * order).toFixed(2)}s ease-out forwards"/>
     <text x="${x + 96}" y="${y0 + 22}" font-size="17" font-weight="700" fill="${t.text}">${esc(name)}</text>
     <text class="mono" x="${x + 96}" y="${y0 + 44}" font-size="12" font-weight="600" fill="url(#accent)" letter-spacing="1">${esc(sub.toUpperCase())}</text>
     ${lines}
@@ -428,7 +429,9 @@ const assets = {
   stats,
   toolbox,
   capabilities,
-  "cert-google-pm": certification(1, W), // Scrum Master (index 0) hidden for now
+  // Scrum Master (index 0) hidden for now
+  "cert-google-pm-certificate": certification(1, undefined, 0),
+  "cert-google-pm-specialization": certification(2, undefined, 1),
   philosophy,
   focus,
   interests,
