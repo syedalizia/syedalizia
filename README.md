@@ -69,14 +69,14 @@ reflects the same standard of delivery.
   <img src="assets/toolbox-light.svg" width="100%" alt="Backend: PHP, Laravel, Symfony, CodeIgniter, Node.js, Express, Python, Java, C#. Frontend: JavaScript, TypeScript, React, Vue.js, Angular, HTML5, CSS3. AI, Data & Automation: AI/ML, LLMs & RAG, n8n, MySQL, PostgreSQL, MongoDB, Firebase. Cloud & DevOps: AWS, Azure, Google Cloud, Docker, Kubernetes, Jenkins, GitHub Actions">
 </picture>
 
-<br/>
+<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-certifications-dark.svg">
   <img src="assets/header-certifications-light.svg" width="100%" alt="04 — Certifications">
 </picture>
 
-<p>
+<div>
 <a href="https://www.credly.com/badges/37985a2c-b457-45f7-bccc-f5fbec2dacf4/linked_in_profile"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cert-google-pm-certificate-dark.svg">
   <img src="assets/cert-google-pm-certificate-light.svg" width="49%" alt="Google Project Management Certificate (Coursera, Apr 2024) — verify on Credly">
@@ -85,7 +85,7 @@ reflects the same standard of delivery.
   <source media="(prefers-color-scheme: dark)" srcset="assets/cert-google-pm-specialization-dark.svg">
   <img src="assets/cert-google-pm-specialization-light.svg" width="49%" alt="Google Project Management: Specialization (Google, Apr 2024, Credential ID PC8DRZYVPVVW) — verify on Coursera">
 </picture></a>
-</p>
+</div>
 
 <br/><br/>
 
@@ -137,7 +137,7 @@ reflects the same standard of delivery.
 
 <p align="center"><i>Whether it is a chessboard, an algorithm, a mountain trail, or a complex system —<br/>I enjoy understanding the terrain and finding the smartest path forward.</i></p>
 
-<br/>
+<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-contact-dark.svg">
