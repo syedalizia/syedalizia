@@ -1,13 +1,17 @@
 <div align="center">
 
-# Hey, I'm Syed Ali Zia 👋
+# Syed Ali Zia
 
-### Full-Stack Engineer · Solution Architect · AI/ML Builder
+### Full-Stack Solution Architect · AI/ML Engineer · Technical Leader
 
-**13+ years of turning ambitious ideas into scalable, production-ready products.**
+#### Architecting scalable platforms. Engineering intelligent products. Delivering measurable impact.
 
-From battle-tested PHP applications to modern JavaScript experiences, cloud-native
-architecture, AI-powered products, and automated workflows—I build the whole thing.
+With **13+ years of engineering and architecture experience**, I design and deliver
+end-to-end digital products—from resilient backend systems and modern web experiences
+to cloud-native platforms, AI/ML capabilities, and intelligent automation.
+
+I translate complex business challenges into secure, maintainable, production-ready
+solutions while aligning technology, teams, and delivery around outcomes that matter.
 
 [![Email](https://img.shields.io/badge/Let's_Talk-ali.zia.1991%40gmail.com-ff4d8d?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ali.zia.1991@gmail.com)
 [![Experience](https://img.shields.io/badge/Experience-13%2B_Years-7c3aed?style=for-the-badge)](#-the-toolbox)
@@ -18,16 +22,15 @@ architecture, AI-powered products, and automated workflows—I build the whole t
 
 ---
 
-## 🪄 A little about me
+## 🧭 Professional profile
 
 ```yaml
-name: Syed Ali Zia
 role: Full-Stack Solution Architect
 experience: 13+ years
-currently_building: AI-powered web products and intelligent automations
-superpower: Taking a product from napkin sketch to scalable production system
-philosophy: Clean architecture. Useful AI. Software that solves real problems.
-off_screen: Chess, LeetCode, hiking, cycling, and the next interesting challenge
+specialization: Full-stack platforms, AI/ML solutions, and intelligent automation
+focus: Architecture, technical strategy, engineering leadership, and delivery
+approach: Transform complex requirements into scalable production systems
+principles: Clean architecture. Useful AI. Technology aligned with business value.
 ```
 
 I work across the entire product lifecycle: discovery, system design, development,
